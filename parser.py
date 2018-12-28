@@ -75,19 +75,19 @@ def generateVariables(var):
     return out
 
 predicates = """
-<predicates nbPredicates="2">  
-    <predicate name="EQ">  
-        <parameters> int X1 int X2 int CONST </parameters>  
-        <expression>  
-        <functional> eq(abs(sub(X1, X2)), CONST) </functional>  
-        </expression>  
+<predicates nbPredicates="2">
+    <predicate name="EQ">
+        <parameters> int P1 int P2 int CONST </parameters>
+        <expression>
+        <functional> eq(abs(sub(P1, P2)), CONST) </functional>
+        </expression>
     </predicate>
         <predicate name="GE">
-        <parameters> int X1 int X2 int CONST </parameters>  
-        <expression>  
-        <functional> ge(abs(sub(X1, X2)), CONST) </functional>  
-        </expression>  
-    </predicate>  
+        <parameters> int P1 int P2 int CONST </parameters>
+        <expression>
+        <functional> ge(abs(sub(X1, X2)), CONST) </functional>
+        </expression>
+    </predicate>
 </predicates>
 """
 
