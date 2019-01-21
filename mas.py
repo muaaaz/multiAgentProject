@@ -1,4 +1,5 @@
 
+import os
 
 def readDomains(domtxt):
     domains = []
@@ -75,40 +76,66 @@ def generateVariables(var):
     return out
 
 predicates = """
-<predicates nbPredicates="2">
+<predicates nbPredicates="3">
     <predicate name="EQ">
-        <parameters> int P1 int P2 int CONST </parameters>
+        <parameters> int F1 int F2 int K </parameters>
         <expression>
-        <functional> eq(abs(sub(P1, P2)), CONST) </functional>
+        <functional> abs(sub(abs(sub(F1, F2)), K)) </functional>
         </expression>
     </predicate>
-        <predicate name="GE">
-        <parameters> int P1 int P2 int CONST </parameters>
+    <predicate name="GE">
+        <parameters> int F1 int F2 int K </parameters>
         <expression>
-        <functional> ge(abs(sub(X1, X2)), CONST) </functional>
+        <functional> add(sub(K, abs(sub(F1, F2))), 1) </functional>
+        </expression>
+    </predicate>
+    <predicate name="ZERO">
+        <parameters> int F1 int F2 </parameters>
+        <expression>
+        <functional> abs(sub(F1, F2)) </functional>
         </expression>
     </predicate>
 </predicates>
 """
 
-def generateConstraints(ctr):
+def generateConstraints(ctr, var=[]):
     out = predicates + '\n\n'
     out += '<constraints nbConstraints="{0}">\n'.format(len(ctr))
+    ctr_pairs = set([])
     for c in ctr:
+        ctr_pairs.add(c['variable1']+c['variable2']) # save the pairs
         pred = "EQ" if c['operation'] == "=" else "GE"
         out += \
-"""\t<constraint name="{0}_{1}_{2}" arity="3" scope="{1} {2}" reference="{0}" >
+"""\t<constraint name="{0}_{1}_{2}" arity="2" scope="{1} {2}" reference="{0}" >
 \t\t<parameters> {1} {2} {3} </parameters>
 \t</constraint>\n""" \
         .format(pred, c['variable1'], c['variable2'], c['constant'])
+
+    out += '\n'
+
+    # generate ZERO constraints
+    for v1 in var:
+        for v2 in var:
+            if v1['name'] + v2['name'] in ctr_pairs:
+                continue
+            elif v2['name'] + v1['name'] in ctr_pairs:
+                continue
+            else:
+                ctr_pairs.add(v1['name'] + v2['name'])
+                out += \
+"""\t<constraint name="{0}_{1}_{2}" arity="2" scope="{1} {2}" reference="{0}" >
+\t\t<parameters> {1} {2} </parameters>
+\t</constraint>\n""" \
+        .format("ZERO", v1['name'], v2['name'])
 
     out += "</constraints>\n"
     return out
 
 
+
 def generateXCSP(dom, var, ctr):
     out = '<instance>\n'
-    out += '<presentation name="sampleProblem" maxConstraintArity="3" maximize="false" format="XCSP 2.1_FRODO" />\n'
+    out += '<presentation name="sampleProblem" maxConstraintArity="2" maximize="false" format="XCSP 2.1_FRODO" />\n'
     out += generateDomains(dom)
     out += generateAgents(var)
     out += generateVariables(var)
@@ -116,11 +143,16 @@ def generateXCSP(dom, var, ctr):
     out += '</instance>'
     return out
 
-if __name__ == "__main__":
-    dom = readDomains('FullRLFAP/CELAR/scen01/dom.txt')
-    var = readVariables('FullRLFAP/CELAR/scen01/var.txt')
-    ctr = readConstraints('FullRLFAP/CELAR/scen01/ctr.txt')
-
-    f = open('test.xml', 'w')
+def solveProblem(problemPath, outputXML='test.xml'):
+    dom = readDomains(os.path.join(problemPath, 'dom.txt'))
+    var = readVariables(os.path.join(problemPath, 'var.txt'))
+    ctr = readConstraints(os.path.join(problemPath, 'ctr.txt'))
+    f = open(outputXML, 'w')
     f.write(generateXCSP(dom, var, ctr))
     f.close()
+    exit(os.system('./run.bash'))
+
+if __name__ == "__main__":
+    solveProblem('FullRLFAP/CELAR/scen01')
+    #solveProblem('sample')
+
