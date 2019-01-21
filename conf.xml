@@ -1,0 +1,12 @@
+<experiment>  
+ 
+ <configuration>  
+   <resultFile fileName = "resultFile.log"/>  
+   <agentDescription agentName = "algorithms/dpop/DPOPagentJaCoP.xml"/>  
+ </configuration>  
+ 
+ <problemList nbProblem = "1">  
+    <file fileName = "test.xml"/>  
+ </problemList>  
+ 
+</experiment> 
