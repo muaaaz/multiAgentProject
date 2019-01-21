@@ -89,12 +89,6 @@ predicates = """
         <functional> max(add(sub(K, abs(sub(F1, F2))), 1), 0) </functional>
         </expression>
     </predicate>
-    <predicate name="ZERO">
-        <parameters> int F1 int F2 </parameters>
-        <expression>
-        <functional> abs(sub(F1, F2)) </functional>
-        </expression>
-    </predicate>
 </predicates>
 """
 
@@ -112,21 +106,6 @@ def generateConstraints(ctr, var=[]):
         .format(pred, c['variable1'], c['variable2'], c['constant'])
 
     out += '\n'
-
-    # generate ZERO constraints
-    for v1 in var:
-        for v2 in var:
-            if v1['name'] + v2['name'] in ctr_pairs:
-                continue
-            elif v2['name'] + v1['name'] in ctr_pairs:
-                continue
-            else:
-                ctr_pairs.add(v1['name'] + v2['name'])
-                out += \
-"""\t<constraint name="{0}_{1}_{2}" arity="2" scope="{1} {2}" reference="{0}" >
-\t\t<parameters> {1} {2} </parameters>
-\t</constraint>\n""" \
-        .format("ZERO", v1['name'], v2['name'])
 
     out += "</constraints>\n"
     return out
