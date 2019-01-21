@@ -1,6 +1,7 @@
 
 import os
 
+
 def readDomains(domtxt):
     domains = []
     f = open(domtxt, 'r')
@@ -9,11 +10,12 @@ def readDomains(domtxt):
     for line in lines:
         tokens = line.split()
         domains.append({
-            "name" : "D" + tokens[0],
-            "nbValues" : tokens[1],
-            "values" : tokens[2:],
+            "name": "D" + tokens[0],
+            "nbValues": tokens[1],
+            "values": tokens[2:],
         })
     return domains
+
 
 def readVariables(vartxt):
     variables = []
@@ -23,8 +25,8 @@ def readVariables(vartxt):
     for line in lines:
         tokens = line.split()
         v = {
-            "name" : "X" + tokens[0],
-            "domain" : "D" + tokens[1],
+            "name": "X" + tokens[0],
+            "domain": "D" + tokens[1],
         }
         try:
             v["initial"] = tokens[2]
@@ -34,6 +36,7 @@ def readVariables(vartxt):
         variables.append(v)
     return variables
 
+
 def readConstraints(ctrtxt):
     constraints = []
     f = open(ctrtxt, 'r')
@@ -42,13 +45,14 @@ def readConstraints(ctrtxt):
     for line in lines:
         tokens = line.split()
         constraints.append({
-            "variable1" : "X" + tokens[0],
-            "variable2" : "X" + tokens[1],
-            "type" : tokens[2],
-            "operation" : tokens[3],
-            "constant" : tokens[4],
+            "variable1": "X" + tokens[0],
+            "variable2": "X" + tokens[1],
+            "type": tokens[2],
+            "operation": tokens[3],
+            "constant": tokens[4],
         })
     return constraints
+
 
 def generateDomains(dom):
     out = '<domains nbDomains="{0}">\n'.format(len(dom))
@@ -59,12 +63,14 @@ def generateDomains(dom):
     out += "</domains>\n"
     return out
 
+
 def generateAgents(var):
     out = '<agents nbAgents="{0}">\n'.format(len(var))
     for v in var:
         out += '\t<agent name="A{0}" />\n'.format(v['name'])
     out += '</agents>\n'
     return out
+
 
 def generateVariables(var):
     out = '<variables nbVariables="{0}">\n'.format(len(var))
@@ -74,6 +80,7 @@ def generateVariables(var):
         )
     out += "</variables>\n"
     return out
+
 
 predicates = """
 <predicates nbPredicates="3">
@@ -92,15 +99,16 @@ predicates = """
 </predicates>
 """
 
+
 def generateConstraints(ctr, var=[]):
     out = predicates + '\n\n'
     out += '<constraints nbConstraints="{0}">\n'.format(len(ctr))
     ctr_pairs = set([])
     for c in ctr:
-        ctr_pairs.add(c['variable1']+c['variable2']) # save the pairs
+        ctr_pairs.add(c['variable1']+c['variable2'])  # save the pairs
         pred = "EQ" if c['operation'] == "=" else "GE"
         out += \
-"""\t<constraint name="{0}_{1}_{2}" arity="2" scope="{1} {2}" reference="{0}" >
+            """\t<constraint name="{0}_{1}_{2}" arity="2" scope="{1} {2}" reference="{0}" >
 \t\t<parameters> {1} {2} {3} </parameters>
 \t</constraint>\n""" \
         .format(pred, c['variable1'], c['variable2'], c['constant'])
@@ -109,7 +117,6 @@ def generateConstraints(ctr, var=[]):
 
     out += "</constraints>\n"
     return out
-
 
 
 def generateXCSP(dom, var, ctr):
@@ -122,6 +129,7 @@ def generateXCSP(dom, var, ctr):
     out += '</instance>'
     return out
 
+
 def solveProblem(problemPath, outputXML='test.xml'):
     dom = readDomains(os.path.join(problemPath, 'dom.txt'))
     var = readVariables(os.path.join(problemPath, 'var.txt'))
@@ -131,7 +139,7 @@ def solveProblem(problemPath, outputXML='test.xml'):
     f.close()
     exit(os.system('./run.bash'))
 
+
 if __name__ == "__main__":
     #solveProblem('FullRLFAP/CELAR/scen01')
     solveProblem('sample')
-
