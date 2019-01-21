@@ -86,7 +86,7 @@ predicates = """
     <predicate name="GE">
         <parameters> int F1 int F2 int K </parameters>
         <expression>
-        <functional> add(sub(K, abs(sub(F1, F2))), 1) </functional>
+        <functional> max(add(sub(K, abs(sub(F1, F2))), 1), 0) </functional>
         </expression>
     </predicate>
     <predicate name="ZERO">
@@ -153,6 +153,6 @@ def solveProblem(problemPath, outputXML='test.xml'):
     exit(os.system('./run.bash'))
 
 if __name__ == "__main__":
-    solveProblem('FullRLFAP/CELAR/scen01')
-    #solveProblem('sample')
+    #solveProblem('FullRLFAP/CELAR/scen01')
+    solveProblem('sample')
 
