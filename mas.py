@@ -96,6 +96,12 @@ predicates = """
         <functional> max(add(sub(K, abs(sub(F1, F2))), 1), 0) </functional>
         </expression>
     </predicate>
+    <predicate name="ALPHA">
+        <parameters> int F1 </parameters>
+        <expression>
+        <functional> mul(F1, div(1, 1)) </functional>
+        </expression>
+    </predicate>
 </predicates>
 """
 
@@ -115,6 +121,14 @@ def generateConstraints(ctr, var=[]):
 
     out += '\n'
 
+    # generate alpha constraints
+    for v in var:
+        out += \
+            """\t<constraint name="ALPHA_{0}" arity="1" scope="{0}" reference="ALPHA" >
+\t\t<parameters> {0} </parameters>
+\t</constraint>\n""" \
+        .format(v["name"])
+
     out += "</constraints>\n"
     return out
 
@@ -125,25 +139,26 @@ def generateXCSP(dom, var, ctr):
     out += generateDomains(dom)
     out += generateAgents(var)
     out += generateVariables(var)
-    out += generateConstraints(ctr)
+    out += generateConstraints(ctr)#, var)
     out += '</instance>'
     return out
 
 
-def solveProblem(problemPath, outputXML='test.xml'):
+def solveProblem(problemPath, outputXML='test.xml', run=False):
     dom = readDomains(os.path.join(problemPath, 'dom.txt'))
     var = readVariables(os.path.join(problemPath, 'var.txt'))
     ctr = readConstraints(os.path.join(problemPath, 'ctr.txt'))
     f = open(outputXML, 'w')
     f.write(generateXCSP(dom, var, ctr))
     f.close()
-    if os.name == 'nt':
-        exit(os.system('run.bat'))
-    else:
-        exit(os.system('./run.sh'))
+    if run:
+        if os.name == 'nt':
+            exit(os.system('run.bat'))
+        else:
+            exit(os.system('./run.sh'))
 
 
 if __name__ == "__main__":
     probName = input("problem to solve [default 'scen01']: ") or 'scen01'
-    solveProblem('FullRLFAP/CELAR/{0}'.format(probName))
+    solveProblem('FullRLFAP/CELAR/{0}'.format(probName), 'xml/{0}.xml'.format(probName))
     #solveProblem('sample')
