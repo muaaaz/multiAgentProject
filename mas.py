@@ -137,9 +137,13 @@ def solveProblem(problemPath, outputXML='test.xml'):
     f = open(outputXML, 'w')
     f.write(generateXCSP(dom, var, ctr))
     f.close()
-    exit(os.system('./run.bash'))
+    if os.name == 'nt':
+        exit(os.system('run.bat'))
+    else:
+        exit(os.system('./run.sh'))
 
 
 if __name__ == "__main__":
-    #solveProblem('FullRLFAP/CELAR/scen01')
-    solveProblem('sample')
+    probName = input("problem to solve [default 'scen01']: ") or 'scen01'
+    solveProblem('FullRLFAP/CELAR/{0}'.format(probName))
+    #solveProblem('sample')
