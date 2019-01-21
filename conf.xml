@@ -1,8 +1,8 @@
 <experiment>  
  
  <configuration>  
-   <resultFile fileName = "resultFile.log"/>  
-   <agentDescription agentName = "algorithms/dpop/DPOPagentJaCoP.xml"/>  
+   <resultFile fileName="result.log"/>  
+   <agentDescription fileName = "frodo2.16/agents/MGM/MGMagentJaCoP.xml"/>  
  </configuration>  
  
  <problemList nbProblem = "1">  
