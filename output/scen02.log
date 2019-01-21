@@ -1,0 +1,2463 @@
+FRODO  Copyright (C) 2008-2018  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions. Use the option -license to display the license.
+
+Running locally
+Controller > Controller > Controller > Constraint graph:
+graph {
+	node [shape = "circle"];
+	subgraph cluster_AX652 {
+		label = AX652;
+		X652 [style="filled"];
+	}
+	subgraph cluster_AX651 {
+		label = AX651;
+		X651 [style="filled"];
+	}
+	subgraph cluster_AX645 {
+		label = AX645;
+		X645 [style="filled"];
+	}
+	subgraph cluster_AX766 {
+		label = AX766;
+		X766 [style="filled"];
+	}
+	subgraph cluster_AX646 {
+		label = AX646;
+		X646 [style="filled"];
+	}
+	subgraph cluster_AX767 {
+		label = AX767;
+		X767 [style="filled"];
+	}
+	subgraph cluster_AX768 {
+		label = AX768;
+		X768 [style="filled"];
+	}
+	subgraph cluster_AX520 {
+		label = AX520;
+		X520 [style="filled"];
+	}
+	subgraph cluster_AX763 {
+		label = AX763;
+		X763 [style="filled"];
+	}
+	subgraph cluster_AX764 {
+		label = AX764;
+		X764 [style="filled"];
+	}
+	subgraph cluster_AX765 {
+		label = AX765;
+		X765 [style="filled"];
+	}
+	subgraph cluster_AX880 {
+		label = AX880;
+		X880 [style="filled"];
+	}
+	subgraph cluster_AX517 {
+		label = AX517;
+		X517 [style="filled"];
+	}
+	subgraph cluster_AX518 {
+		label = AX518;
+		X518 [style="filled"];
+	}
+	subgraph cluster_AX519 {
+		label = AX519;
+		X519 [style="filled"];
+	}
+	subgraph cluster_AX634 {
+		label = AX634;
+		X634 [style="filled"];
+	}
+	subgraph cluster_AX635 {
+		label = AX635;
+		X635 [style="filled"];
+	}
+	subgraph cluster_AX636 {
+		label = AX636;
+		X636 [style="filled"];
+	}
+	subgraph cluster_AX879 {
+		label = AX879;
+		X879 [style="filled"];
+	}
+	subgraph cluster_AX795 {
+		label = AX795;
+		X795 [style="filled"];
+	}
+	subgraph cluster_AX796 {
+		label = AX796;
+		X796 [style="filled"];
+	}
+	subgraph cluster_AX555 {
+		label = AX555;
+		X555 [style="filled"];
+	}
+	subgraph cluster_AX797 {
+		label = AX797;
+		X797 [style="filled"];
+	}
+	subgraph cluster_AX435 {
+		label = AX435;
+		X435 [style="filled"];
+	}
+	subgraph cluster_AX556 {
+		label = AX556;
+		X556 [style="filled"];
+	}
+	subgraph cluster_AX798 {
+		label = AX798;
+		X798 [style="filled"];
+	}
+	subgraph cluster_AX791 {
+		label = AX791;
+		X791 [style="filled"];
+	}
+	subgraph cluster_AX792 {
+		label = AX792;
+		X792 [style="filled"];
+	}
+	subgraph cluster_AX793 {
+		label = AX793;
+		X793 [style="filled"];
+	}
+	subgraph cluster_AX794 {
+		label = AX794;
+		X794 [style="filled"];
+	}
+	subgraph cluster_AX790 {
+		label = AX790;
+		X790 [style="filled"];
+	}
+	subgraph cluster_AX304 {
+		label = AX304;
+		X304 [style="filled"];
+	}
+	subgraph cluster_AX667 {
+		label = AX667;
+		X667 [style="filled"];
+	}
+	subgraph cluster_AX788 {
+		label = AX788;
+		X788 [style="filled"];
+	}
+	subgraph cluster_AX305 {
+		label = AX305;
+		X305 [style="filled"];
+	}
+	subgraph cluster_AX668 {
+		label = AX668;
+		X668 [style="filled"];
+	}
+	subgraph cluster_AX789 {
+		label = AX789;
+		X789 [style="filled"];
+	}
+	subgraph cluster_AX306 {
+		label = AX306;
+		X306 [style="filled"];
+	}
+	subgraph cluster_AX663 {
+		label = AX663;
+		X663 [style="filled"];
+	}
+	subgraph cluster_AX664 {
+		label = AX664;
+		X664 [style="filled"];
+	}
+	subgraph cluster_AX785 {
+		label = AX785;
+		X785 [style="filled"];
+	}
+	subgraph cluster_AX665 {
+		label = AX665;
+		X665 [style="filled"];
+	}
+	subgraph cluster_AX786 {
+		label = AX786;
+		X786 [style="filled"];
+	}
+	subgraph cluster_AX303 {
+		label = AX303;
+		X303 [style="filled"];
+	}
+	subgraph cluster_AX666 {
+		label = AX666;
+		X666 [style="filled"];
+	}
+	subgraph cluster_AX787 {
+		label = AX787;
+		X787 [style="filled"];
+	}
+	subgraph cluster_AX661 {
+		label = AX661;
+		X661 [style="filled"];
+	}
+	subgraph cluster_AX662 {
+		label = AX662;
+		X662 [style="filled"];
+	}
+	subgraph cluster_AX16 {
+		label = AX16;
+		X16 [style="filled"];
+	}
+	subgraph cluster_AX14 {
+		label = AX14;
+		X14 [style="filled"];
+	}
+	subgraph cluster_AX15 {
+		label = AX15;
+		X15 [style="filled"];
+	}
+	subgraph cluster_AX13 {
+		label = AX13;
+		X13 [style="filled"];
+	}
+	subgraph cluster_AX292 {
+		label = AX292;
+		X292 [style="filled"];
+	}
+	subgraph cluster_AX290 {
+		label = AX290;
+		X290 [style="filled"];
+	}
+	subgraph cluster_AX291 {
+		label = AX291;
+		X291 [style="filled"];
+	}
+	subgraph cluster_AX605 {
+		label = AX605;
+		X605 [style="filled"];
+	}
+	subgraph cluster_AX606 {
+		label = AX606;
+		X606 [style="filled"];
+	}
+	subgraph cluster_AX607 {
+		label = AX607;
+		X607 [style="filled"];
+	}
+	subgraph cluster_AX608 {
+		label = AX608;
+		X608 [style="filled"];
+	}
+	subgraph cluster_AX601 {
+		label = AX601;
+		X601 [style="filled"];
+	}
+	subgraph cluster_AX722 {
+		label = AX722;
+		X722 [style="filled"];
+	}
+	subgraph cluster_AX602 {
+		label = AX602;
+		X602 [style="filled"];
+	}
+	subgraph cluster_AX723 {
+		label = AX723;
+		X723 [style="filled"];
+	}
+	subgraph cluster_AX603 {
+		label = AX603;
+		X603 [style="filled"];
+	}
+	subgraph cluster_AX724 {
+		label = AX724;
+		X724 [style="filled"];
+	}
+	subgraph cluster_AX604 {
+		label = AX604;
+		X604 [style="filled"];
+	}
+	subgraph cluster_AX289 {
+		label = AX289;
+		X289 [style="filled"];
+	}
+	subgraph cluster_AX720 {
+		label = AX720;
+		X720 [style="filled"];
+	}
+	subgraph cluster_AX600 {
+		label = AX600;
+		X600 [style="filled"];
+	}
+	subgraph cluster_AX721 {
+		label = AX721;
+		X721 [style="filled"];
+	}
+	subgraph cluster_AX281 {
+		label = AX281;
+		X281 [style="filled"];
+	}
+	subgraph cluster_AX282 {
+		label = AX282;
+		X282 [style="filled"];
+	}
+	subgraph cluster_AX283 {
+		label = AX283;
+		X283 [style="filled"];
+	}
+	subgraph cluster_AX284 {
+		label = AX284;
+		X284 [style="filled"];
+	}
+	subgraph cluster_AX719 {
+		label = AX719;
+		X719 [style="filled"];
+	}
+	subgraph cluster_AX717 {
+		label = AX717;
+		X717 [style="filled"];
+	}
+	subgraph cluster_AX718 {
+		label = AX718;
+		X718 [style="filled"];
+	}
+	subgraph cluster_AX713 {
+		label = AX713;
+		X713 [style="filled"];
+	}
+	subgraph cluster_AX714 {
+		label = AX714;
+		X714 [style="filled"];
+	}
+	subgraph cluster_AX630 {
+		label = AX630;
+		X630 [style="filled"];
+	}
+	subgraph cluster_AX631 {
+		label = AX631;
+		X631 [style="filled"];
+	}
+	subgraph cluster_AX632 {
+		label = AX632;
+		X632 [style="filled"];
+	}
+	subgraph cluster_AX633 {
+		label = AX633;
+		X633 [style="filled"];
+	}
+	subgraph cluster_AX748 {
+		label = AX748;
+		X748 [style="filled"];
+	}
+	subgraph cluster_AX629 {
+		label = AX629;
+		X629 [style="filled"];
+	}
+	subgraph cluster_AX744 {
+		label = AX744;
+		X744 [style="filled"];
+	}
+	subgraph cluster_AX745 {
+		label = AX745;
+		X745 [style="filled"];
+	}
+	subgraph cluster_AX625 {
+		label = AX625;
+		X625 [style="filled"];
+	}
+	subgraph cluster_AX746 {
+		label = AX746;
+		X746 [style="filled"];
+	}
+	subgraph cluster_AX626 {
+		label = AX626;
+		X626 [style="filled"];
+	}
+	subgraph cluster_AX747 {
+		label = AX747;
+		X747 [style="filled"];
+	}
+	subgraph cluster_AX621 {
+		label = AX621;
+		X621 [style="filled"];
+	}
+	subgraph cluster_AX622 {
+		label = AX622;
+		X622 [style="filled"];
+	}
+	subgraph cluster_AX743 {
+		label = AX743;
+		X743 [style="filled"];
+	}
+	subgraph cluster_AX616 {
+		label = AX616;
+		X616 [style="filled"];
+	}
+	subgraph cluster_AX617 {
+		label = AX617;
+		X617 [style="filled"];
+	}
+	subgraph cluster_AX618 {
+		label = AX618;
+		X618 [style="filled"];
+	}
+	subgraph cluster_AX613 {
+		label = AX613;
+		X613 [style="filled"];
+	}
+	subgraph cluster_AX614 {
+		label = AX614;
+		X614 [style="filled"];
+	}
+	subgraph cluster_AX615 {
+		label = AX615;
+		X615 [style="filled"];
+	}
+	subgraph cluster_AX54 {
+		label = AX54;
+		X54 [style="filled"];
+	}
+	subgraph cluster_AX53 {
+		label = AX53;
+		X53 [style="filled"];
+	}
+	subgraph cluster_AX130 {
+		label = AX130;
+		X130 [style="filled"];
+	}
+	subgraph cluster_AX128 {
+		label = AX128;
+		X128 [style="filled"];
+	}
+	subgraph cluster_AX129 {
+		label = AX129;
+		X129 [style="filled"];
+	}
+	subgraph cluster_AX800 {
+		label = AX800;
+		X800 [style="filled"];
+	}
+	subgraph cluster_AX801 {
+		label = AX801;
+		X801 [style="filled"];
+	}
+	subgraph cluster_AX802 {
+		label = AX802;
+		X802 [style="filled"];
+	}
+	subgraph cluster_AX127 {
+		label = AX127;
+		X127 [style="filled"];
+	}
+	subgraph cluster_AX481 {
+		label = AX481;
+		X481 [style="filled"];
+	}
+	subgraph cluster_AX482 {
+		label = AX482;
+		X482 [style="filled"];
+	}
+	subgraph cluster_AX238 {
+		label = AX238;
+		X238 [style="filled"];
+	}
+	subgraph cluster_AX278 {
+		label = AX278;
+		X278 [style="filled"];
+	}
+	subgraph cluster_AX274 {
+		label = AX274;
+		X274 [style="filled"];
+	}
+	subgraph cluster_AX275 {
+		label = AX275;
+		X275 [style="filled"];
+	}
+	subgraph cluster_AX276 {
+		label = AX276;
+		X276 [style="filled"];
+	}
+	subgraph cluster_AX79 {
+		label = AX79;
+		X79 [style="filled"];
+	}
+	subgraph cluster_AX277 {
+		label = AX277;
+		X277 [style="filled"];
+	}
+	subgraph cluster_AX270 {
+		label = AX270;
+		X270 [style="filled"];
+	}
+	subgraph cluster_AX271 {
+		label = AX271;
+		X271 [style="filled"];
+	}
+	subgraph cluster_AX272 {
+		label = AX272;
+		X272 [style="filled"];
+	}
+	subgraph cluster_AX273 {
+		label = AX273;
+		X273 [style="filled"];
+	}
+	subgraph cluster_AX146 {
+		label = AX146;
+		X146 [style="filled"];
+	}
+	subgraph cluster_AX267 {
+		label = AX267;
+		X267 [style="filled"];
+	}
+	subgraph cluster_AX268 {
+		label = AX268;
+		X268 [style="filled"];
+	}
+	subgraph cluster_AX269 {
+		label = AX269;
+		X269 [style="filled"];
+	}
+	subgraph cluster_AX263 {
+		label = AX263;
+		X263 [style="filled"];
+	}
+	subgraph cluster_AX143 {
+		label = AX143;
+		X143 [style="filled"];
+	}
+	subgraph cluster_AX264 {
+		label = AX264;
+		X264 [style="filled"];
+	}
+	subgraph cluster_AX144 {
+		label = AX144;
+		X144 [style="filled"];
+	}
+	subgraph cluster_AX265 {
+		label = AX265;
+		X265 [style="filled"];
+	}
+	subgraph cluster_AX145 {
+		label = AX145;
+		X145 [style="filled"];
+	}
+	subgraph cluster_AX266 {
+		label = AX266;
+		X266 [style="filled"];
+	}
+	subgraph cluster_AX85 {
+		label = AX85;
+		X85 [style="filled"];
+	}
+	subgraph cluster_AX261 {
+		label = AX261;
+		X261 [style="filled"];
+	}
+	subgraph cluster_AX86 {
+		label = AX86;
+		X86 [style="filled"];
+	}
+	subgraph cluster_AX262 {
+		label = AX262;
+		X262 [style="filled"];
+	}
+	subgraph cluster_AX83 {
+		label = AX83;
+		X83 [style="filled"];
+	}
+	subgraph cluster_AX84 {
+		label = AX84;
+		X84 [style="filled"];
+	}
+	subgraph cluster_AX81 {
+		label = AX81;
+		X81 [style="filled"];
+	}
+	subgraph cluster_AX82 {
+		label = AX82;
+		X82 [style="filled"];
+	}
+	subgraph cluster_AX80 {
+		label = AX80;
+		X80 [style="filled"];
+	}
+	subgraph cluster_AX577 {
+		label = AX577;
+		X577 [style="filled"];
+	}
+	subgraph cluster_AX578 {
+		label = AX578;
+		X578 [style="filled"];
+	}
+	subgraph cluster_AX330 {
+		label = AX330;
+		X330 [style="filled"];
+	}
+	subgraph cluster_AX205 {
+		label = AX205;
+		X205 [style="filled"];
+	}
+	subgraph cluster_AX326 {
+		label = AX326;
+		X326 [style="filled"];
+	}
+	subgraph cluster_AX206 {
+		label = AX206;
+		X206 [style="filled"];
+	}
+	subgraph cluster_AX327 {
+		label = AX327;
+		X327 [style="filled"];
+	}
+	subgraph cluster_AX328 {
+		label = AX328;
+		X328 [style="filled"];
+	}
+	subgraph cluster_AX329 {
+		label = AX329;
+		X329 [style="filled"];
+	}
+	subgraph cluster_AX322 {
+		label = AX322;
+		X322 [style="filled"];
+	}
+	subgraph cluster_AX323 {
+		label = AX323;
+		X323 [style="filled"];
+	}
+	subgraph cluster_AX565 {
+		label = AX565;
+		X565 [style="filled"];
+	}
+	subgraph cluster_AX324 {
+		label = AX324;
+		X324 [style="filled"];
+	}
+	subgraph cluster_AX566 {
+		label = AX566;
+		X566 [style="filled"];
+	}
+	subgraph cluster_AX325 {
+		label = AX325;
+		X325 [style="filled"];
+	}
+	subgraph cluster_AX560 {
+		label = AX560;
+		X560 [style="filled"];
+	}
+	subgraph cluster_AX561 {
+		label = AX561;
+		X561 [style="filled"];
+	}
+	subgraph cluster_AX562 {
+		label = AX562;
+		X562 [style="filled"];
+	}
+	subgraph cluster_AX321 {
+		label = AX321;
+		X321 [style="filled"];
+	}
+	subgraph cluster_AX436 {
+		label = AX436;
+		X436 [style="filled"];
+	}
+	subgraph cluster_AX557 {
+		label = AX557;
+		X557 [style="filled"];
+	}
+	subgraph cluster_AX799 {
+		label = AX799;
+		X799 [style="filled"];
+	}
+	subgraph cluster_AX558 {
+		label = AX558;
+		X558 [style="filled"];
+	}
+	subgraph cluster_AX559 {
+		label = AX559;
+		X559 [style="filled"];
+	}
+	subgraph cluster_AX234 {
+		label = AX234;
+		X234 [style="filled"];
+	}
+	subgraph cluster_AX476 {
+		label = AX476;
+		X476 [style="filled"];
+	}
+	subgraph cluster_AX597 {
+		label = AX597;
+		X597 [style="filled"];
+	}
+	subgraph cluster_AX235 {
+		label = AX235;
+		X235 [style="filled"];
+	}
+	subgraph cluster_AX598 {
+		label = AX598;
+		X598 [style="filled"];
+	}
+	subgraph cluster_AX236 {
+		label = AX236;
+		X236 [style="filled"];
+	}
+	subgraph cluster_AX599 {
+		label = AX599;
+		X599 [style="filled"];
+	}
+	subgraph cluster_AX237 {
+		label = AX237;
+		X237 [style="filled"];
+	}
+	subgraph cluster_AX351 {
+		label = AX351;
+		X351 [style="filled"];
+	}
+	subgraph cluster_AX593 {
+		label = AX593;
+		X593 [style="filled"];
+	}
+	subgraph cluster_AX352 {
+		label = AX352;
+		X352 [style="filled"];
+	}
+	subgraph cluster_AX594 {
+		label = AX594;
+		X594 [style="filled"];
+	}
+	subgraph cluster_AX595 {
+		label = AX595;
+		X595 [style="filled"];
+	}
+	subgraph cluster_AX233 {
+		label = AX233;
+		X233 [style="filled"];
+	}
+	subgraph cluster_AX475 {
+		label = AX475;
+		X475 [style="filled"];
+	}
+	subgraph cluster_AX596 {
+		label = AX596;
+		X596 [style="filled"];
+	}
+	subgraph cluster_AX590 {
+		label = AX590;
+		X590 [style="filled"];
+	}
+	subgraph cluster_AX591 {
+		label = AX591;
+		X591 [style="filled"];
+	}
+	subgraph cluster_AX350 {
+		label = AX350;
+		X350 [style="filled"];
+	}
+	subgraph cluster_AX592 {
+		label = AX592;
+		X592 [style="filled"];
+	}
+	subgraph cluster_AX349 {
+		label = AX349;
+		X349 [style="filled"];
+	}
+	subgraph cluster_AX344 {
+		label = AX344;
+		X344 [style="filled"];
+	}
+	subgraph cluster_AX586 {
+		label = AX586;
+		X586 [style="filled"];
+	}
+	subgraph cluster_AX587 {
+		label = AX587;
+		X587 [style="filled"];
+	}
+	subgraph cluster_AX588 {
+		label = AX588;
+		X588 [style="filled"];
+	}
+	subgraph cluster_AX589 {
+		label = AX589;
+		X589 [style="filled"];
+	}
+	subgraph cluster_AX341 {
+		label = AX341;
+		X341 [style="filled"];
+	}
+	subgraph cluster_AX583 {
+		label = AX583;
+		X583 [style="filled"];
+	}
+	subgraph cluster_AX342 {
+		label = AX342;
+		X342 [style="filled"];
+	}
+	subgraph cluster_AX584 {
+		label = AX584;
+		X584 [style="filled"];
+	}
+	subgraph cluster_AX343 {
+		label = AX343;
+		X343 [style="filled"];
+	}
+	subgraph cluster_AX585 {
+		label = AX585;
+		X585 [style="filled"];
+	}
+	subgraph cluster_AX580 {
+		label = AX580;
+		X580 [style="filled"];
+	}
+	subgraph cluster_AX579 {
+		label = AX579;
+		X579 [style="filled"];
+	}
+
+
+	X305 -- X237;
+	X305 -- X303;
+	X305 -- X238;
+	X305 -- X304;
+	X668 -- X667;
+	X789 -- X787;
+	X789 -- X788;
+	X789 -- X768;
+	X306 -- X237;
+	X306 -- X303;
+	X306 -- X238;
+	X306 -- X304;
+	X306 -- X305;
+	X792 -- X767;
+	X792 -- X789;
+	X792 -- X768;
+	X792 -- X790;
+	X792 -- X791;
+	X793 -- X792;
+	X793 -- X767;
+	X793 -- X768;
+	X793 -- X791;
+	X794 -- X792;
+	X794 -- X793;
+	X794 -- X767;
+	X794 -- X791;
+	X795 -- X793;
+	X795 -- X794;
+	X795 -- X767;
+	X796 -- X793;
+	X796 -- X794;
+	X796 -- X795;
+	X555 -- X275;
+	X555 -- X276;
+	X555 -- X277;
+	X555 -- X278;
+	X555 -- X269;
+	X555 -- X270;
+	X555 -- X271;
+	X555 -- X272;
+	X555 -- X273;
+	X555 -- X274;
+	X797 -- X795;
+	X797 -- X796;
+	X435 -- X261;
+	X435 -- X262;
+	X556 -- X275;
+	X556 -- X276;
+	X556 -- X277;
+	X556 -- X278;
+	X556 -- X269;
+	X556 -- X555;
+	X556 -- X270;
+	X556 -- X271;
+	X556 -- X272;
+	X556 -- X273;
+	X556 -- X274;
+	X798 -- X795;
+	X798 -- X796;
+	X798 -- X797;
+	X798 -- X768;
+	X436 -- X435;
+	X436 -- X261;
+	X436 -- X262;
+	X557 -- X321;
+	X557 -- X322;
+	X557 -- X323;
+	X557 -- X324;
+	X557 -- X14;
+	X557 -- X13;
+	X557 -- X16;
+	X557 -- X15;
+	X799 -- X797;
+	X799 -- X798;
+	X799 -- X767;
+	X799 -- X768;
+	X790 -- X289;
+	X790 -- X787;
+	X790 -- X788;
+	X790 -- X767;
+	X790 -- X789;
+	X790 -- X768;
+	X791 -- X767;
+	X791 -- X789;
+	X791 -- X790;
+	X661 -- X645;
+	X661 -- X646;
+	X662 -- X661;
+	X662 -- X645;
+	X662 -- X646;
+	X664 -- X663;
+	X785 -- X613;
+	X785 -- X767;
+	X785 -- X614;
+	X785 -- X768;
+	X785 -- X594;
+	X785 -- X597;
+	X785 -- X598;
+	X785 -- X666;
+	X785 -- X557;
+	X785 -- X593;
+	X665 -- X558;
+	X665 -- X613;
+	X665 -- X614;
+	X665 -- X594;
+	X665 -- X321;
+	X665 -- X322;
+	X665 -- X597;
+	X665 -- X323;
+	X665 -- X598;
+	X665 -- X324;
+	X665 -- X599;
+	X665 -- X600;
+	X665 -- X557;
+	X665 -- X14;
+	X665 -- X13;
+	X665 -- X16;
+	X665 -- X15;
+	X665 -- X593;
+	X786 -- X594;
+	X786 -- X597;
+	X786 -- X598;
+	X786 -- X785;
+	X786 -- X665;
+	X786 -- X557;
+	X786 -- X558;
+	X786 -- X613;
+	X786 -- X767;
+	X786 -- X614;
+	X786 -- X593;
+	X303 -- X237;
+	X303 -- X238;
+	X666 -- X558;
+	X666 -- X613;
+	X666 -- X614;
+	X666 -- X594;
+	X666 -- X321;
+	X666 -- X322;
+	X666 -- X597;
+	X666 -- X323;
+	X666 -- X598;
+	X666 -- X324;
+	X666 -- X599;
+	X666 -- X665;
+	X666 -- X600;
+	X666 -- X557;
+	X666 -- X14;
+	X666 -- X13;
+	X666 -- X16;
+	X666 -- X15;
+	X666 -- X593;
+	X787 -- X607;
+	X787 -- X608;
+	X787 -- X718;
+	X787 -- X276;
+	X787 -- X269;
+	X787 -- X555;
+	X787 -- X720;
+	X787 -- X556;
+	X787 -- X271;
+	X787 -- X274;
+	X304 -- X237;
+	X304 -- X303;
+	X304 -- X238;
+	X667 -- X206;
+	X667 -- X615;
+	X667 -- X616;
+	X667 -- X618;
+	X667 -- X130;
+	X788 -- X723;
+	X788 -- X768;
+	X788 -- X607;
+	X788 -- X608;
+	X788 -- X143;
+	X788 -- X145;
+	X788 -- X555;
+	X788 -- X556;
+	X788 -- X721;
+	X788 -- X787;
+	X206 -- X127;
+	X206 -- X128;
+	X206 -- X205;
+	X206 -- X129;
+	X327 -- X264;
+	X327 -- X325;
+	X327 -- X326;
+	X327 -- X263;
+	X328 -- X264;
+	X328 -- X325;
+	X328 -- X326;
+	X328 -- X327;
+	X328 -- X263;
+	X330 -- X329;
+	X577 -- X561;
+	X577 -- X562;
+	X577 -- X233;
+	X577 -- X234;
+	X577 -- X349;
+	X578 -- X561;
+	X578 -- X562;
+	X578 -- X233;
+	X578 -- X234;
+	X578 -- X577;
+	X578 -- X350;
+	X558 -- X321;
+	X558 -- X322;
+	X558 -- X323;
+	X558 -- X324;
+	X558 -- X557;
+	X558 -- X14;
+	X558 -- X13;
+	X558 -- X16;
+	X558 -- X15;
+	X559 -- X265;
+	X559 -- X266;
+	X559 -- X267;
+	X559 -- X268;
+	X561 -- X349;
+	X561 -- X233;
+	X561 -- X234;
+	X561 -- X350;
+	X562 -- X349;
+	X562 -- X561;
+	X562 -- X233;
+	X562 -- X234;
+	X562 -- X350;
+	X321 -- X14;
+	X321 -- X16;
+	X321 -- X15;
+	X322 -- X321;
+	X322 -- X13;
+	X322 -- X16;
+	X322 -- X15;
+	X323 -- X321;
+	X323 -- X13;
+	X323 -- X15;
+	X565 -- X559;
+	X565 -- X560;
+	X324 -- X321;
+	X324 -- X322;
+	X324 -- X323;
+	X324 -- X14;
+	X324 -- X13;
+	X324 -- X16;
+	X324 -- X15;
+	X566 -- X559;
+	X566 -- X330;
+	X566 -- X565;
+	X566 -- X560;
+	X325 -- X264;
+	X325 -- X263;
+	X205 -- X127;
+	X205 -- X128;
+	X205 -- X130;
+	X326 -- X264;
+	X326 -- X325;
+	X326 -- X263;
+	X14 -- X13;
+	X16 -- X13;
+	X16 -- X15;
+	X15 -- X14;
+	X560 -- X559;
+	X560 -- X265;
+	X560 -- X266;
+	X560 -- X267;
+	X560 -- X268;
+	X349 -- X233;
+	X349 -- X234;
+	X349 -- X237;
+	X349 -- X238;
+	X352 -- X330;
+	X352 -- X235;
+	X352 -- X236;
+	X352 -- X329;
+	X352 -- X351;
+	X594 -- X558;
+	X594 -- X321;
+	X594 -- X323;
+	X594 -- X557;
+	X594 -- X593;
+	X595 -- X589;
+	X595 -- X590;
+	X475 -- X435;
+	X475 -- X436;
+	X596 -- X595;
+	X596 -- X589;
+	X596 -- X590;
+	X234 -- X233;
+	X476 -- X475;
+	X476 -- X435;
+	X476 -- X436;
+	X597 -- X558;
+	X597 -- X519;
+	X597 -- X594;
+	X597 -- X520;
+	X597 -- X557;
+	X597 -- X593;
+	X235 -- X233;
+	X235 -- X234;
+	X598 -- X558;
+	X598 -- X519;
+	X598 -- X594;
+	X598 -- X520;
+	X598 -- X597;
+	X598 -- X557;
+	X598 -- X593;
+	X236 -- X233;
+	X236 -- X234;
+	X236 -- X235;
+	X599 -- X558;
+	X599 -- X321;
+	X599 -- X322;
+	X599 -- X323;
+	X599 -- X324;
+	X599 -- X557;
+	X599 -- X14;
+	X599 -- X13;
+	X599 -- X16;
+	X599 -- X15;
+	X238 -- X237;
+	X590 -- X589;
+	X591 -- X349;
+	X591 -- X329;
+	X591 -- X330;
+	X591 -- X352;
+	X591 -- X561;
+	X591 -- X562;
+	X591 -- X233;
+	X591 -- X234;
+	X591 -- X577;
+	X591 -- X578;
+	X591 -- X350;
+	X591 -- X351;
+	X350 -- X349;
+	X350 -- X233;
+	X350 -- X234;
+	X350 -- X237;
+	X350 -- X238;
+	X592 -- X349;
+	X592 -- X329;
+	X592 -- X330;
+	X592 -- X352;
+	X592 -- X561;
+	X592 -- X562;
+	X592 -- X233;
+	X592 -- X234;
+	X592 -- X577;
+	X592 -- X578;
+	X592 -- X591;
+	X592 -- X350;
+	X592 -- X351;
+	X351 -- X330;
+	X351 -- X235;
+	X351 -- X236;
+	X351 -- X329;
+	X593 -- X558;
+	X593 -- X557;
+	X341 -- X143;
+	X341 -- X144;
+	X341 -- X145;
+	X341 -- X277;
+	X341 -- X146;
+	X341 -- X278;
+	X341 -- X281;
+	X341 -- X283;
+	X341 -- X284;
+	X583 -- X275;
+	X583 -- X276;
+	X583 -- X277;
+	X583 -- X278;
+	X583 -- X269;
+	X583 -- X555;
+	X583 -- X556;
+	X583 -- X270;
+	X583 -- X271;
+	X583 -- X272;
+	X583 -- X273;
+	X583 -- X274;
+	X342 -- X143;
+	X342 -- X341;
+	X342 -- X144;
+	X342 -- X145;
+	X342 -- X277;
+	X342 -- X146;
+	X342 -- X278;
+	X342 -- X282;
+	X342 -- X283;
+	X342 -- X284;
+	X584 -- X275;
+	X584 -- X583;
+	X584 -- X276;
+	X584 -- X277;
+	X584 -- X278;
+	X584 -- X269;
+	X584 -- X555;
+	X584 -- X556;
+	X584 -- X270;
+	X584 -- X271;
+	X584 -- X272;
+	X584 -- X273;
+	X584 -- X284;
+	X584 -- X274;
+	X343 -- X143;
+	X343 -- X144;
+	X343 -- X342;
+	X343 -- X145;
+	X343 -- X277;
+	X343 -- X146;
+	X343 -- X278;
+	X343 -- X281;
+	X343 -- X283;
+	X343 -- X284;
+	X585 -- X565;
+	X585 -- X566;
+	X344 -- X143;
+	X344 -- X341;
+	X344 -- X144;
+	X344 -- X145;
+	X344 -- X277;
+	X344 -- X343;
+	X344 -- X146;
+	X344 -- X278;
+	X344 -- X282;
+	X344 -- X283;
+	X344 -- X284;
+	X586 -- X266;
+	X586 -- X585;
+	X586 -- X268;
+	X586 -- X565;
+	X586 -- X566;
+	X587 -- X585;
+	X587 -- X586;
+	X587 -- X565;
+	X587 -- X566;
+	X588 -- X585;
+	X588 -- X586;
+	X588 -- X565;
+	X588 -- X587;
+	X588 -- X566;
+	X580 -- X579;
+	X129 -- X127;
+	X129 -- X128;
+	X800 -- X797;
+	X800 -- X798;
+	X800 -- X579;
+	X800 -- X799;
+	X800 -- X767;
+	X800 -- X768;
+	X801 -- X349;
+	X801 -- X800;
+	X801 -- X561;
+	X801 -- X562;
+	X801 -- X233;
+	X801 -- X234;
+	X801 -- X577;
+	X801 -- X621;
+	X801 -- X578;
+	X801 -- X622;
+	X801 -- X799;
+	X801 -- X591;
+	X801 -- X350;
+	X801 -- X592;
+	X802 -- X349;
+	X802 -- X767;
+	X802 -- X800;
+	X802 -- X768;
+	X802 -- X801;
+	X802 -- X561;
+	X802 -- X562;
+	X802 -- X233;
+	X802 -- X234;
+	X802 -- X577;
+	X802 -- X621;
+	X802 -- X622;
+	X802 -- X799;
+	X802 -- X591;
+	X802 -- X350;
+	X802 -- X592;
+	X130 -- X127;
+	X130 -- X128;
+	X130 -- X129;
+	X54 -- X53;
+	X128 -- X127;
+	X481 -- X475;
+	X481 -- X476;
+	X481 -- X435;
+	X481 -- X436;
+	X482 -- X475;
+	X482 -- X476;
+	X482 -- X435;
+	X482 -- X436;
+	X482 -- X481;
+	X275 -- X270;
+	X275 -- X271;
+	X275 -- X272;
+	X275 -- X274;
+	X275 -- X143;
+	X275 -- X144;
+	X275 -- X145;
+	X275 -- X146;
+	X275 -- X269;
+	X276 -- X275;
+	X276 -- X270;
+	X276 -- X271;
+	X276 -- X272;
+	X276 -- X273;
+	X276 -- X143;
+	X276 -- X144;
+	X276 -- X145;
+	X276 -- X146;
+	X276 -- X269;
+	X277 -- X275;
+	X277 -- X276;
+	X277 -- X270;
+	X277 -- X272;
+	X277 -- X273;
+	X277 -- X274;
+	X277 -- X143;
+	X277 -- X144;
+	X277 -- X145;
+	X277 -- X146;
+	X278 -- X275;
+	X278 -- X276;
+	X278 -- X277;
+	X278 -- X271;
+	X278 -- X273;
+	X278 -- X274;
+	X278 -- X143;
+	X278 -- X144;
+	X278 -- X145;
+	X278 -- X146;
+	X278 -- X269;
+	X270 -- X269;
+	X271 -- X270;
+	X272 -- X269;
+	X272 -- X271;
+	X273 -- X270;
+	X273 -- X271;
+	X273 -- X272;
+	X273 -- X143;
+	X273 -- X144;
+	X273 -- X145;
+	X273 -- X146;
+	X273 -- X269;
+	X274 -- X270;
+	X274 -- X271;
+	X274 -- X272;
+	X274 -- X273;
+	X274 -- X143;
+	X274 -- X144;
+	X274 -- X145;
+	X274 -- X146;
+	X274 -- X269;
+	X264 -- X263;
+	X144 -- X143;
+	X145 -- X144;
+	X266 -- X265;
+	X146 -- X143;
+	X146 -- X145;
+	X267 -- X265;
+	X267 -- X266;
+	X268 -- X265;
+	X268 -- X266;
+	X268 -- X267;
+	X79 -- X53;
+	X262 -- X261;
+	X602 -- X595;
+	X602 -- X596;
+	X602 -- X565;
+	X602 -- X566;
+	X602 -- X601;
+	X602 -- X559;
+	X602 -- X560;
+	X723 -- X275;
+	X723 -- X276;
+	X723 -- X277;
+	X723 -- X278;
+	X723 -- X273;
+	X723 -- X274;
+	X723 -- X713;
+	X723 -- X714;
+	X723 -- X717;
+	X723 -- X718;
+	X723 -- X719;
+	X723 -- X341;
+	X723 -- X144;
+	X723 -- X342;
+	X723 -- X343;
+	X723 -- X146;
+	X723 -- X344;
+	X723 -- X720;
+	X723 -- X721;
+	X723 -- X722;
+	X723 -- X281;
+	X723 -- X282;
+	X723 -- X283;
+	X723 -- X284;
+	X603 -- X265;
+	X603 -- X266;
+	X603 -- X267;
+	X603 -- X268;
+	X603 -- X559;
+	X603 -- X560;
+	X724 -- X723;
+	X724 -- X275;
+	X724 -- X276;
+	X724 -- X277;
+	X724 -- X278;
+	X724 -- X273;
+	X724 -- X274;
+	X724 -- X713;
+	X724 -- X714;
+	X724 -- X717;
+	X724 -- X718;
+	X724 -- X719;
+	X724 -- X143;
+	X724 -- X341;
+	X724 -- X342;
+	X724 -- X145;
+	X724 -- X343;
+	X724 -- X344;
+	X724 -- X720;
+	X724 -- X721;
+	X724 -- X722;
+	X724 -- X281;
+	X724 -- X282;
+	X724 -- X283;
+	X724 -- X284;
+	X604 -- X265;
+	X604 -- X266;
+	X604 -- X267;
+	X604 -- X268;
+	X604 -- X559;
+	X604 -- X603;
+	X604 -- X262;
+	X604 -- X560;
+	X605 -- X561;
+	X605 -- X562;
+	X606 -- X561;
+	X606 -- X562;
+	X606 -- X605;
+	X607 -- X275;
+	X607 -- X583;
+	X607 -- X276;
+	X607 -- X584;
+	X607 -- X278;
+	X607 -- X555;
+	X607 -- X556;
+	X607 -- X273;
+	X607 -- X274;
+	X608 -- X607;
+	X608 -- X583;
+	X608 -- X276;
+	X608 -- X584;
+	X608 -- X269;
+	X608 -- X555;
+	X608 -- X556;
+	X608 -- X270;
+	X608 -- X271;
+	X608 -- X272;
+	X608 -- X274;
+	X81 -- X80;
+	X81 -- X289;
+	X81 -- X79;
+	X80 -- X651;
+	X80 -- X53;
+	X80 -- X79;
+	X80 -- X790;
+	X83 -- X765;
+	X83 -- X766;
+	X83 -- X613;
+	X83 -- X614;
+	X83 -- X747;
+	X83 -- X748;
+	X82 -- X81;
+	X82 -- X80;
+	X82 -- X290;
+	X82 -- X79;
+	X85 -- X83;
+	X85 -- X84;
+	X85 -- X765;
+	X85 -- X766;
+	X85 -- X613;
+	X85 -- X614;
+	X85 -- X747;
+	X85 -- X748;
+	X84 -- X83;
+	X84 -- X785;
+	X84 -- X765;
+	X84 -- X613;
+	X84 -- X614;
+	X84 -- X747;
+	X84 -- X748;
+	X86 -- X83;
+	X86 -- X85;
+	X86 -- X785;
+	X86 -- X84;
+	X86 -- X765;
+	X86 -- X766;
+	X86 -- X613;
+	X86 -- X614;
+	X86 -- X747;
+	X86 -- X748;
+	X290 -- X289;
+	X291 -- X289;
+	X291 -- X269;
+	X291 -- X290;
+	X291 -- X270;
+	X291 -- X271;
+	X291 -- X272;
+	X292 -- X289;
+	X292 -- X269;
+	X292 -- X290;
+	X292 -- X291;
+	X292 -- X270;
+	X292 -- X271;
+	X292 -- X272;
+	X713 -- X275;
+	X713 -- X276;
+	X713 -- X278;
+	X713 -- X555;
+	X713 -- X556;
+	X713 -- X270;
+	X713 -- X272;
+	X713 -- X273;
+	X713 -- X274;
+	X713 -- X143;
+	X713 -- X341;
+	X713 -- X583;
+	X713 -- X144;
+	X713 -- X342;
+	X713 -- X584;
+	X713 -- X145;
+	X713 -- X343;
+	X713 -- X146;
+	X713 -- X344;
+	X713 -- X281;
+	X713 -- X282;
+	X713 -- X283;
+	X713 -- X284;
+	X714 -- X607;
+	X714 -- X275;
+	X714 -- X276;
+	X714 -- X277;
+	X714 -- X555;
+	X714 -- X556;
+	X714 -- X271;
+	X714 -- X273;
+	X714 -- X274;
+	X714 -- X713;
+	X714 -- X143;
+	X714 -- X341;
+	X714 -- X583;
+	X714 -- X144;
+	X714 -- X342;
+	X714 -- X584;
+	X714 -- X145;
+	X714 -- X343;
+	X714 -- X146;
+	X714 -- X344;
+	X714 -- X269;
+	X714 -- X281;
+	X714 -- X282;
+	X714 -- X283;
+	X714 -- X284;
+	X717 -- X607;
+	X717 -- X276;
+	X717 -- X277;
+	X717 -- X278;
+	X717 -- X555;
+	X717 -- X556;
+	X717 -- X270;
+	X717 -- X271;
+	X717 -- X272;
+	X717 -- X274;
+	X717 -- X713;
+	X717 -- X714;
+	X717 -- X143;
+	X717 -- X583;
+	X717 -- X144;
+	X717 -- X584;
+	X717 -- X145;
+	X717 -- X146;
+	X717 -- X269;
+	X718 -- X607;
+	X718 -- X608;
+	X718 -- X275;
+	X718 -- X277;
+	X718 -- X278;
+	X718 -- X555;
+	X718 -- X556;
+	X718 -- X270;
+	X718 -- X271;
+	X718 -- X272;
+	X718 -- X273;
+	X718 -- X713;
+	X718 -- X714;
+	X718 -- X717;
+	X718 -- X143;
+	X718 -- X583;
+	X718 -- X144;
+	X718 -- X584;
+	X718 -- X145;
+	X718 -- X146;
+	X718 -- X269;
+	X719 -- X607;
+	X719 -- X275;
+	X719 -- X276;
+	X719 -- X277;
+	X719 -- X278;
+	X719 -- X555;
+	X719 -- X556;
+	X719 -- X270;
+	X719 -- X271;
+	X719 -- X272;
+	X719 -- X273;
+	X719 -- X274;
+	X719 -- X713;
+	X719 -- X714;
+	X719 -- X717;
+	X719 -- X718;
+	X719 -- X143;
+	X719 -- X583;
+	X719 -- X144;
+	X719 -- X584;
+	X719 -- X145;
+	X719 -- X146;
+	X719 -- X269;
+	X720 -- X607;
+	X720 -- X608;
+	X720 -- X275;
+	X720 -- X276;
+	X720 -- X277;
+	X720 -- X278;
+	X720 -- X555;
+	X720 -- X556;
+	X720 -- X270;
+	X720 -- X271;
+	X720 -- X272;
+	X720 -- X273;
+	X720 -- X274;
+	X720 -- X713;
+	X720 -- X714;
+	X720 -- X717;
+	X720 -- X718;
+	X720 -- X719;
+	X720 -- X143;
+	X720 -- X583;
+	X720 -- X144;
+	X720 -- X584;
+	X720 -- X145;
+	X720 -- X146;
+	X720 -- X269;
+	X600 -- X558;
+	X600 -- X321;
+	X600 -- X322;
+	X600 -- X323;
+	X600 -- X324;
+	X600 -- X599;
+	X600 -- X557;
+	X600 -- X14;
+	X600 -- X13;
+	X600 -- X16;
+	X600 -- X15;
+	X721 -- X275;
+	X721 -- X276;
+	X721 -- X277;
+	X721 -- X278;
+	X721 -- X273;
+	X721 -- X274;
+	X721 -- X713;
+	X721 -- X714;
+	X721 -- X717;
+	X721 -- X718;
+	X721 -- X719;
+	X721 -- X143;
+	X721 -- X341;
+	X721 -- X144;
+	X721 -- X342;
+	X721 -- X145;
+	X721 -- X343;
+	X721 -- X146;
+	X721 -- X344;
+	X721 -- X720;
+	X721 -- X281;
+	X721 -- X282;
+	X721 -- X283;
+	X721 -- X284;
+	X601 -- X330;
+	X601 -- X595;
+	X601 -- X596;
+	X601 -- X565;
+	X601 -- X566;
+	X601 -- X559;
+	X601 -- X560;
+	X722 -- X275;
+	X722 -- X276;
+	X722 -- X277;
+	X722 -- X278;
+	X722 -- X273;
+	X722 -- X274;
+	X722 -- X713;
+	X722 -- X714;
+	X722 -- X717;
+	X722 -- X718;
+	X722 -- X719;
+	X722 -- X143;
+	X722 -- X341;
+	X722 -- X144;
+	X722 -- X342;
+	X722 -- X145;
+	X722 -- X343;
+	X722 -- X146;
+	X722 -- X344;
+	X722 -- X720;
+	X722 -- X721;
+	X722 -- X281;
+	X722 -- X282;
+	X722 -- X283;
+	X722 -- X284;
+	X281 -- X143;
+	X281 -- X144;
+	X281 -- X145;
+	X281 -- X277;
+	X281 -- X146;
+	X281 -- X278;
+	X282 -- X143;
+	X282 -- X144;
+	X282 -- X145;
+	X282 -- X277;
+	X282 -- X146;
+	X282 -- X278;
+	X282 -- X281;
+	X283 -- X143;
+	X283 -- X144;
+	X283 -- X145;
+	X283 -- X277;
+	X283 -- X146;
+	X283 -- X278;
+	X283 -- X282;
+	X284 -- X143;
+	X284 -- X144;
+	X284 -- X145;
+	X284 -- X277;
+	X284 -- X146;
+	X284 -- X278;
+	X284 -- X281;
+	X284 -- X283;
+	X745 -- X585;
+	X745 -- X586;
+	X745 -- X565;
+	X745 -- X587;
+	X745 -- X566;
+	X745 -- X588;
+	X745 -- X599;
+	X745 -- X600;
+	X625 -- X621;
+	X625 -- X622;
+	X625 -- X579;
+	X625 -- X580;
+	X746 -- X585;
+	X746 -- X565;
+	X746 -- X587;
+	X746 -- X566;
+	X746 -- X588;
+	X746 -- X599;
+	X746 -- X600;
+	X746 -- X745;
+	X626 -- X621;
+	X626 -- X622;
+	X626 -- X579;
+	X626 -- X625;
+	X626 -- X580;
+	X747 -- X613;
+	X747 -- X614;
+	X747 -- X663;
+	X747 -- X664;
+	X747 -- X743;
+	X747 -- X744;
+	X748 -- X613;
+	X748 -- X614;
+	X748 -- X747;
+	X748 -- X663;
+	X748 -- X664;
+	X748 -- X743;
+	X748 -- X744;
+	X629 -- X269;
+	X629 -- X291;
+	X629 -- X270;
+	X629 -- X292;
+	X629 -- X271;
+	X629 -- X272;
+	X630 -- X269;
+	X630 -- X291;
+	X630 -- X270;
+	X630 -- X292;
+	X630 -- X271;
+	X630 -- X272;
+	X630 -- X629;
+	X631 -- X594;
+	X631 -- X321;
+	X631 -- X630;
+	X631 -- X323;
+	X631 -- X629;
+	X631 -- X593;
+	X632 -- X594;
+	X632 -- X630;
+	X632 -- X631;
+	X632 -- X629;
+	X632 -- X593;
+	X633 -- X330;
+	X633 -- X352;
+	X633 -- X329;
+	X633 -- X591;
+	X633 -- X592;
+	X633 -- X351;
+	X634 -- X330;
+	X634 -- X352;
+	X634 -- X633;
+	X634 -- X329;
+	X634 -- X591;
+	X634 -- X592;
+	X634 -- X351;
+	X613 -- X558;
+	X613 -- X594;
+	X613 -- X597;
+	X613 -- X598;
+	X613 -- X557;
+	X613 -- X593;
+	X614 -- X558;
+	X614 -- X613;
+	X614 -- X594;
+	X614 -- X597;
+	X614 -- X598;
+	X614 -- X557;
+	X614 -- X593;
+	X615 -- X127;
+	X615 -- X128;
+	X615 -- X129;
+	X615 -- X206;
+	X616 -- X127;
+	X616 -- X128;
+	X616 -- X205;
+	X616 -- X206;
+	X616 -- X615;
+	X616 -- X130;
+	X617 -- X595;
+	X617 -- X596;
+	X617 -- X589;
+	X617 -- X615;
+	X617 -- X616;
+	X617 -- X590;
+	X618 -- X305;
+	X618 -- X615;
+	X618 -- X616;
+	X618 -- X617;
+	X618 -- X595;
+	X618 -- X596;
+	X618 -- X127;
+	X618 -- X303;
+	X618 -- X589;
+	X618 -- X205;
+	X618 -- X130;
+	X621 -- X561;
+	X621 -- X562;
+	X621 -- X233;
+	X621 -- X234;
+	X621 -- X577;
+	X621 -- X579;
+	X621 -- X580;
+	X621 -- X591;
+	X621 -- X350;
+	X621 -- X592;
+	X622 -- X349;
+	X622 -- X561;
+	X622 -- X562;
+	X622 -- X233;
+	X622 -- X234;
+	X622 -- X621;
+	X622 -- X578;
+	X622 -- X579;
+	X622 -- X580;
+	X622 -- X591;
+	X622 -- X592;
+	X743 -- X327;
+	X743 -- X328;
+	X743 -- X264;
+	X743 -- X663;
+	X743 -- X664;
+	X743 -- X325;
+	X743 -- X326;
+	X743 -- X263;
+	X744 -- X327;
+	X744 -- X328;
+	X744 -- X264;
+	X744 -- X664;
+	X744 -- X325;
+	X744 -- X743;
+	X744 -- X326;
+	X744 -- X263;
+	X646 -- X265;
+	X646 -- X266;
+	X646 -- X267;
+	X646 -- X268;
+	X646 -- X645;
+	X767 -- X745;
+	X767 -- X746;
+	X767 -- X747;
+	X767 -- X594;
+	X767 -- X597;
+	X767 -- X631;
+	X767 -- X599;
+	X767 -- X632;
+	X767 -- X633;
+	X767 -- X557;
+	X767 -- X634;
+	X767 -- X290;
+	X767 -- X591;
+	X767 -- X593;
+	X767 -- X558;
+	X767 -- X614;
+	X767 -- X636;
+	X767 -- X321;
+	X767 -- X322;
+	X767 -- X586;
+	X767 -- X323;
+	X767 -- X565;
+	X767 -- X587;
+	X767 -- X324;
+	X767 -- X665;
+	X767 -- X600;
+	X767 -- X666;
+	X767 -- X765;
+	X767 -- X14;
+	X767 -- X13;
+	X767 -- X16;
+	X767 -- X15;
+	X768 -- X767;
+	X768 -- X746;
+	X768 -- X747;
+	X768 -- X629;
+	X768 -- X594;
+	X768 -- X597;
+	X768 -- X630;
+	X768 -- X598;
+	X768 -- X631;
+	X768 -- X599;
+	X768 -- X557;
+	X768 -- X290;
+	X768 -- X558;
+	X768 -- X613;
+	X768 -- X614;
+	X768 -- X321;
+	X768 -- X322;
+	X768 -- X586;
+	X768 -- X323;
+	X768 -- X565;
+	X768 -- X324;
+	X768 -- X665;
+	X768 -- X600;
+	X768 -- X666;
+	X768 -- X14;
+	X768 -- X13;
+	X768 -- X16;
+	X768 -- X15;
+	X652 -- X651;
+	X635 -- X330;
+	X635 -- X565;
+	X635 -- X566;
+	X635 -- X633;
+	X635 -- X601;
+	X635 -- X634;
+	X635 -- X602;
+	X635 -- X559;
+	X635 -- X560;
+	X636 -- X565;
+	X636 -- X566;
+	X636 -- X633;
+	X636 -- X601;
+	X636 -- X634;
+	X636 -- X602;
+	X636 -- X635;
+	X636 -- X559;
+	X636 -- X560;
+	X517 -- X237;
+	X517 -- X303;
+	X517 -- X238;
+	X517 -- X304;
+	X517 -- X305;
+	X517 -- X349;
+	X517 -- X306;
+	X517 -- X350;
+	X518 -- X237;
+	X518 -- X303;
+	X518 -- X238;
+	X518 -- X304;
+	X518 -- X305;
+	X518 -- X349;
+	X518 -- X306;
+	X518 -- X517;
+	X518 -- X350;
+	X880 -- X80;
+	X880 -- X879;
+	X520 -- X519;
+	X763 -- X264;
+	X763 -- X325;
+	X763 -- X743;
+	X763 -- X326;
+	X763 -- X744;
+	X763 -- X327;
+	X763 -- X328;
+	X763 -- X263;
+	X764 -- X264;
+	X764 -- X763;
+	X764 -- X325;
+	X764 -- X743;
+	X764 -- X326;
+	X764 -- X744;
+	X764 -- X327;
+	X764 -- X328;
+	X764 -- X263;
+	X765 -- X613;
+	X765 -- X614;
+	X765 -- X747;
+	X765 -- X748;
+	X645 -- X265;
+	X645 -- X266;
+	X645 -- X267;
+	X645 -- X268;
+	X645 -- X566;
+	X766 -- X765;
+	X766 -- X613;
+	X766 -- X614;
+	X766 -- X747;
+	X766 -- X748;
+}
+
+Taking ownership of Agent AX652
+Controller > Taking ownership of Agent AX651
+Controller > Taking ownership of Agent AX645
+Controller > Taking ownership of Agent AX766
+Controller > Taking ownership of Agent AX646
+Controller > Taking ownership of Agent AX767
+Controller > Taking ownership of Agent AX768
+Controller > Taking ownership of Agent AX520
+Controller > Taking ownership of Agent AX763
+Controller > Taking ownership of Agent AX764
+Controller > Taking ownership of Agent AX765
+Controller > Taking ownership of Agent AX880
+Controller > Taking ownership of Agent AX517
+Controller > Taking ownership of Agent AX518
+Controller > Taking ownership of Agent AX519
+Controller > Taking ownership of Agent AX634
+Controller > Taking ownership of Agent AX635
+Controller > Taking ownership of Agent AX636
+Controller > Taking ownership of Agent AX879
+Controller > Taking ownership of Agent AX795
+Controller > Taking ownership of Agent AX796
+Controller > Taking ownership of Agent AX555
+Controller > Taking ownership of Agent AX797
+Controller > Taking ownership of Agent AX435
+Controller > Taking ownership of Agent AX556
+Controller > Taking ownership of Agent AX798
+Controller > Taking ownership of Agent AX791
+Controller > Taking ownership of Agent AX792
+Controller > Taking ownership of Agent AX793
+Controller > Taking ownership of Agent AX794
+Controller > Taking ownership of Agent AX790
+Controller > Taking ownership of Agent AX304
+Controller > Taking ownership of Agent AX667
+Controller > Taking ownership of Agent AX788
+Controller > Taking ownership of Agent AX305
+Controller > Taking ownership of Agent AX668
+Controller > Taking ownership of Agent AX789
+Controller > Taking ownership of Agent AX306
+Controller > Taking ownership of Agent AX663
+Controller > Taking ownership of Agent AX664
+Controller > Taking ownership of Agent AX785
+Controller > Taking ownership of Agent AX665
+Controller > Taking ownership of Agent AX786
+Controller > Taking ownership of Agent AX303
+Controller > Taking ownership of Agent AX666
+Controller > Taking ownership of Agent AX787
+Controller > Taking ownership of Agent AX661
+Controller > Taking ownership of Agent AX662
+Controller > Taking ownership of Agent AX16
+Controller > Taking ownership of Agent AX14
+Controller > Taking ownership of Agent AX15
+Controller > Taking ownership of Agent AX13
+Controller > Taking ownership of Agent AX292
+Controller > Taking ownership of Agent AX290
+Controller > Taking ownership of Agent AX291
+Controller > Taking ownership of Agent AX605
+Controller > Taking ownership of Agent AX606
+Controller > Taking ownership of Agent AX607
+Controller > Taking ownership of Agent AX608
+Controller > Taking ownership of Agent AX601
+Controller > Taking ownership of Agent AX722
+Controller > Taking ownership of Agent AX602
+Controller > Taking ownership of Agent AX723
+Controller > Taking ownership of Agent AX603
+Controller > Taking ownership of Agent AX724
+Controller > Taking ownership of Agent AX604
+Controller > Taking ownership of Agent AX289
+Controller > Taking ownership of Agent AX720
+Controller > Taking ownership of Agent AX600
+Controller > Taking ownership of Agent AX721
+Controller > Taking ownership of Agent AX281
+Controller > Taking ownership of Agent AX282
+Controller > Taking ownership of Agent AX283
+Controller > Taking ownership of Agent AX284
+Controller > Taking ownership of Agent AX719
+Controller > Taking ownership of Agent AX717
+Controller > Taking ownership of Agent AX718
+Controller > Taking ownership of Agent AX713
+Controller > Taking ownership of Agent AX714
+Controller > Taking ownership of Agent AX630
+Controller > Taking ownership of Agent AX631
+Controller > Taking ownership of Agent AX632
+Controller > Taking ownership of Agent AX633
+Controller > Taking ownership of Agent AX748
+Controller > Taking ownership of Agent AX629
+Controller > Taking ownership of Agent AX744
+Controller > Taking ownership of Agent AX745
+Controller > Taking ownership of Agent AX625
+Controller > Taking ownership of Agent AX746
+Controller > Taking ownership of Agent AX626
+Controller > Taking ownership of Agent AX747
+Controller > Taking ownership of Agent AX621
+Controller > Taking ownership of Agent AX622
+Controller > Taking ownership of Agent AX743
+Controller > Taking ownership of Agent AX616
+Controller > Taking ownership of Agent AX617
+Controller > Taking ownership of Agent AX618
+Controller > Taking ownership of Agent AX613
+Controller > Taking ownership of Agent AX614
+Controller > Taking ownership of Agent AX615
+Controller > Taking ownership of Agent AX54
+Controller > Taking ownership of Agent AX53
+Controller > Taking ownership of Agent AX130
+Controller > Taking ownership of Agent AX128
+Controller > Taking ownership of Agent AX129
+Controller > Taking ownership of Agent AX800
+Controller > Taking ownership of Agent AX801
+Controller > Taking ownership of Agent AX802
+Controller > Taking ownership of Agent AX127
+Controller > Taking ownership of Agent AX481
+Controller > Taking ownership of Agent AX482
+Controller > Taking ownership of Agent AX238
+Controller > Taking ownership of Agent AX278
+Controller > Taking ownership of Agent AX274
+Controller > Taking ownership of Agent AX275
+Controller > Taking ownership of Agent AX276
+Controller > Taking ownership of Agent AX79
+Controller > Taking ownership of Agent AX277
+Controller > Taking ownership of Agent AX270
+Controller > Taking ownership of Agent AX271
+Controller > Taking ownership of Agent AX272
+Controller > Taking ownership of Agent AX273
+Controller > Taking ownership of Agent AX146
+Controller > Taking ownership of Agent AX267
+Controller > Taking ownership of Agent AX268
+Controller > Taking ownership of Agent AX269
+Controller > Taking ownership of Agent AX263
+Controller > Taking ownership of Agent AX143
+Controller > Taking ownership of Agent AX264
+Controller > Taking ownership of Agent AX144
+Controller > Taking ownership of Agent AX265
+Controller > Taking ownership of Agent AX145
+Controller > Taking ownership of Agent AX266
+Controller > Taking ownership of Agent AX85
+Controller > Taking ownership of Agent AX261
+Controller > Taking ownership of Agent AX86
+Controller > Taking ownership of Agent AX262
+Controller > Taking ownership of Agent AX83
+Controller > Taking ownership of Agent AX84
+Controller > Taking ownership of Agent AX81
+Controller > Taking ownership of Agent AX82
+Controller > Taking ownership of Agent AX80
+Controller > Taking ownership of Agent AX577
+Controller > Taking ownership of Agent AX578
+Controller > Taking ownership of Agent AX330
+Controller > Taking ownership of Agent AX205
+Controller > Taking ownership of Agent AX326
+Controller > Taking ownership of Agent AX206
+Controller > Taking ownership of Agent AX327
+Controller > Taking ownership of Agent AX328
+Controller > Taking ownership of Agent AX329
+Controller > Taking ownership of Agent AX322
+Controller > Taking ownership of Agent AX323
+Controller > Taking ownership of Agent AX565
+Controller > Taking ownership of Agent AX324
+Controller > Taking ownership of Agent AX566
+Controller > Taking ownership of Agent AX325
+Controller > Taking ownership of Agent AX560
+Controller > Taking ownership of Agent AX561
+Controller > Taking ownership of Agent AX562
+Controller > Taking ownership of Agent AX321
+Controller > Taking ownership of Agent AX436
+Controller > Taking ownership of Agent AX557
+Controller > Taking ownership of Agent AX799
+Controller > Taking ownership of Agent AX558
+Controller > Taking ownership of Agent AX559
+Controller > Taking ownership of Agent AX234
+Controller > Taking ownership of Agent AX476
+Controller > Taking ownership of Agent AX597
+Controller > Taking ownership of Agent AX235
+Controller > Taking ownership of Agent AX598
+Controller > Taking ownership of Agent AX236
+Controller > Taking ownership of Agent AX599
+Controller > Taking ownership of Agent AX237
+Controller > Taking ownership of Agent AX351
+Controller > Taking ownership of Agent AX593
+Controller > Taking ownership of Agent AX352
+Controller > Taking ownership of Agent AX594
+Controller > Taking ownership of Agent AX595
+Controller > Taking ownership of Agent AX233
+Controller > Taking ownership of Agent AX475
+Controller > Taking ownership of Agent AX596
+Controller > Taking ownership of Agent AX590
+Controller > Taking ownership of Agent AX591
+Controller > Taking ownership of Agent AX350
+Controller > Taking ownership of Agent AX592
+Controller > Taking ownership of Agent AX349
+Controller > Taking ownership of Agent AX344
+Controller > Taking ownership of Agent AX586
+Controller > Taking ownership of Agent AX587
+Controller > Taking ownership of Agent AX588
+Controller > Taking ownership of Agent AX589
+Controller > Taking ownership of Agent AX341
+Controller > Taking ownership of Agent AX583
+Controller > Taking ownership of Agent AX342
+Controller > Taking ownership of Agent AX584
+Controller > Taking ownership of Agent AX343
+Controller > Taking ownership of Agent AX585
+Controller > Taking ownership of Agent AX580
+Controller > Taking ownership of Agent AX579
+Controller > var `X476' = 666
+var `X475' = 428
+var `X482' = 498
+var `X481' = 736
+var `X668' = 708
+var `X128' = 338
+var `X129' = 442
+var `X206' = 750
+var `X879' = 442
+var `X652' = 338
+var `X54' = 44
+var `X127' = 100
+var `X205' = 512
+var `X667' = 470
+var `X130' = 680
+var `X615' = 708
+var `X616' = 470
+var `X435' = 58
+var `X436' = 296
+var `X261' = 778
+var `X661' = 484
+var `X662' = 722
+var `X589' = 156
+var `X590' = 394
+var `X617' = 72
+var `X618' = 310
+var `X262' = 540
+var `X303' = 394
+var `X304' = 156
+var `X305' = 484
+var `X306' = 722
+var `X796' = 498
+var `X595' = 58
+var `X596' = 296
+var `X81' = 254
+var `X880' = 680
+var `X651' = 100
+var `X53' = 282
+var `X80' = 694
+var `X79' = 456
+var `X327' = 666
+var `X328' = 428
+var `X264' = 114
+var `X763' = 428
+var `X325' = 512
+var `X764' = 666
+var `X326' = 750
+var `X263' = 352
+var `X82' = 16
+var `X797' = 296
+var `X517' = 282
+var `X518' = 44
+var `X237' = 338
+var `X238' = 100
+var `X602' = 722
+var `X601' = 484
+var `X635' = 310
+var `X605' = 470
+var `X606' = 708
+var `X519' = 282
+var `X520' = 44
+var `X566' = 142
+var `X588' = 30
+var `X585' = 156
+var `X625' = 456
+var `X626' = 694
+var `X579' = 114
+var `X580' = 352
+var `X289' = 736
+var `X265' = 268
+var `X267' = 366
+var `X268' = 128
+var `X645' = 324
+var `X646' = 86
+var `X559' = 750
+var `X603' = 296
+var `X604' = 58
+var `X266' = 30
+var `X560' = 512
+var `X663' = 324
+var `X664' = 86
+var `X743' = 338
+var `X744' = 100
+var `X235' = 114
+var `X236' = 352
+var `X85' = 512
+var `X84' = 694
+var `X86' = 750
+var `X766' = 142
+var `X83' = 456
+var `X748' = 282
+var `X291' = 254
+var `X292' = 16
+var `X349' = 540
+var `X801' = 764
+var `X329' = 296
+var `X330' = 58
+var `X352' = 366
+var `X562' = 722
+var `X561' = 484
+var `X233' = 72
+var `X234' = 310
+var `X577' = 30
+var `X621' = 540
+var `X578' = 268
+var `X622' = 778
+var `X350' = 778
+var `X351' = 128
+var `X592' = 666
+var `X607' = 442
+var `X608' = 680
+var `X271' = 324
+var `X269' = 554
+var `X787' = 512
+var `X556' = 296
+var `X555' = 58
+var `X272' = 86
+var `X270' = 792
+var `X583' = 44
+var `X584' = 282
+var `X724' = 310
+var `X723' = 72
+var `X275' = 366
+var `X276' = 128
+var `X277' = 380
+var `X278' = 142
+var `X273' = 722
+var `X274' = 484
+var `X714' = 16
+var `X713' = 254
+var `X717' = 736
+var `X718' = 498
+var `X719' = 268
+var `X143' = 58
+var `X144' = 296
+var `X341' = 456
+var `X342' = 694
+var `X343' = 442
+var `X145' = 666
+var `X344' = 680
+var `X146' = 428
+var `X720' = 30
+var `X722' = 750
+var `X281' = 366
+var `X282' = 128
+var `X283' = 366
+var `X284' = 128
+var `X721' = 512
+var `X789' = 58
+var `X629' = 366
+var `X630' = 128
+var `X598' = 526
+var `X798' = 58
+var `X613' = 680
+var `X788' = 750
+var `X745' = 380
+var `X746' = 142
+var `X800' = 708
+var `X747' = 44
+var `X768' = 114
+var `X802' = 526
+var `X594' = 512
+var `X792' = 512
+var `X793' = 540
+var `X794' = 778
+var `X597' = 764
+var `X795' = 736
+var `X631' = 526
+var `X599' = 736
+var `X632' = 764
+var `X633' = 512
+var `X557' = 44
+var `X634' = 750
+var `X290' = 498
+var `X799' = 470
+var `X591' = 428
+var `X790' = 296
+var `X593' = 750
+var `X791' = 750
+var `X558' = 282
+var `X614' = 442
+var `X636' = 72
+var `X321' = 380
+var `X322' = 142
+var `X586' = 394
+var `X323' = 764
+var `X565' = 380
+var `X587' = 268
+var `X785' = 338
+var `X324' = 526
+var `X665' = 554
+var `X786' = 100
+var `X600' = 498
+var `X666' = 792
+var `X765' = 380
+var `X14' = 652
+var `X13' = 414
+var `X16' = 512
+var `X15' = 750
+var `X767' = 352
+Total optimal cost: 152
+Number of messages sent (by type): 
+	- Total:	0
+Number of messages sent (by agent): 
+Number of messages received (by agent): 
+Amount of information sent (by type, in bytes): 
+	- Total:	0
+Amount of information sent (by agent, in bytes): 
+Amount of information received (by agent, in bytes): 
+Size of the largest message sent (by type, in bytes): 
+	- Overall maximum:	0
+Algorithm finished in 319251 ms
+Controller > Experiments finished
+All experiments are finished
+Controller > 
