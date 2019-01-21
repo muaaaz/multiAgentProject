@@ -1,0 +1,56 @@
+<instance>
+<presentation name="sampleProblem" maxConstraintArity="2" maximize="false" format="XCSP 2.1_FRODO" />
+<domains nbDomains="1">
+	<domain name="D1" nbValues="3">1 2 4</domain>
+</domains>
+<agents nbAgents="4">
+	<agent name="AX1" />
+	<agent name="AX2" />
+	<agent name="AX3" />
+	<agent name="AX4" />
+</agents>
+<variables nbVariables="4">
+	<variable name="X1" domain="D1" agent="AX1" />
+	<variable name="X2" domain="D1" agent="AX2" />
+	<variable name="X3" domain="D1" agent="AX3" />
+	<variable name="X4" domain="D1" agent="AX4" />
+</variables>
+
+<predicates nbPredicates="3">
+    <predicate name="EQ">
+        <parameters> int F1 int F2 int K </parameters>
+        <expression>
+        <functional> abs(sub(abs(sub(F1, F2)), K)) </functional>
+        </expression>
+    </predicate>
+    <predicate name="GE">
+        <parameters> int F1 int F2 int K </parameters>
+        <expression>
+        <functional> max(add(sub(K, abs(sub(F1, F2))), 1), 0) </functional>
+        </expression>
+    </predicate>
+    <predicate name="ALPHA">
+        <parameters> int F1 </parameters>
+        <expression>
+        <functional> mul(F1, div(1, 1)) </functional>
+        </expression>
+    </predicate>
+</predicates>
+
+
+<constraints nbConstraints="4">
+	<constraint name="EQ_X1_X2" arity="2" scope="X1 X2" reference="EQ" >
+		<parameters> X1 X2 1 </parameters>
+	</constraint>
+	<constraint name="GE_X1_X3" arity="2" scope="X1 X3" reference="GE" >
+		<parameters> X1 X3 1 </parameters>
+	</constraint>
+	<constraint name="GE_X1_X4" arity="2" scope="X1 X4" reference="GE" >
+		<parameters> X1 X4 2 </parameters>
+	</constraint>
+	<constraint name="EQ_X3_X4" arity="2" scope="X3 X4" reference="EQ" >
+		<parameters> X3 X4 2 </parameters>
+	</constraint>
+
+</constraints>
+</instance>
