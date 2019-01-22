@@ -4,7 +4,7 @@ This is free software, and you are welcome to redistribute it
 under certain conditions. Use the option -license to display the license.
 
 Running locally
-Controller > Controller > Controller > Constraint graph:
+Constraint graph:
 graph {
 	node [shape = "circle"];
 	subgraph cluster_AX179 {
@@ -4477,406 +4477,406 @@ graph {
 }
 
 Taking ownership of Agent AX179
-Controller > Taking ownership of Agent AX16
-Controller > Taking ownership of Agent AX14
-Controller > Taking ownership of Agent AX296
-Controller > Taking ownership of Agent AX15
-Controller > Taking ownership of Agent AX13
-Controller > Taking ownership of Agent AX299
-Controller > Taking ownership of Agent AX292
-Controller > Taking ownership of Agent AX295
-Controller > Taking ownership of Agent AX290
-Controller > Taking ownership of Agent AX291
-Controller > Taking ownership of Agent AX289
-Controller > Taking ownership of Agent AX27
-Controller > Taking ownership of Agent AX28
-Controller > Taking ownership of Agent AX285
-Controller > Taking ownership of Agent AX286
-Controller > Taking ownership of Agent AX23
-Controller > Taking ownership of Agent AX287
-Controller > Taking ownership of Agent AX24
-Controller > Taking ownership of Agent AX288
-Controller > Taking ownership of Agent AX281
-Controller > Taking ownership of Agent AX282
-Controller > Taking ownership of Agent AX283
-Controller > Taking ownership of Agent AX284
-Controller > Taking ownership of Agent AX193
-Controller > Taking ownership of Agent AX194
-Controller > Taking ownership of Agent AX191
-Controller > Taking ownership of Agent AX192
-Controller > Taking ownership of Agent AX49
-Controller > Taking ownership of Agent AX182
-Controller > Taking ownership of Agent AX183
-Controller > Taking ownership of Agent AX184
-Controller > Taking ownership of Agent AX180
-Controller > Taking ownership of Agent AX181
-Controller > Taking ownership of Agent AX377
-Controller > Taking ownership of Agent AX378
-Controller > Taking ownership of Agent AX494
-Controller > Taking ownership of Agent AX495
-Controller > Taking ownership of Agent AX375
-Controller > Taking ownership of Agent AX496
-Controller > Taking ownership of Agent AX376
-Controller > Taking ownership of Agent AX54
-Controller > Taking ownership of Agent AX370
-Controller > Taking ownership of Agent AX491
-Controller > Taking ownership of Agent AX52
-Controller > Taking ownership of Agent AX371
-Controller > Taking ownership of Agent AX492
-Controller > Taking ownership of Agent AX53
-Controller > Taking ownership of Agent AX130
-Controller > Taking ownership of Agent AX372
-Controller > Taking ownership of Agent AX493
-Controller > Taking ownership of Agent AX50
-Controller > Taking ownership of Agent AX51
-Controller > Taking ownership of Agent AX128
-Controller > Taking ownership of Agent AX129
-Controller > Taking ownership of Agent AX366
-Controller > Taking ownership of Agent AX367
-Controller > Taking ownership of Agent AX368
-Controller > Taking ownership of Agent AX127
-Controller > Taking ownership of Agent AX369
-Controller > Taking ownership of Agent AX69
-Controller > Taking ownership of Agent AX120
-Controller > Taking ownership of Agent AX362
-Controller > Taking ownership of Agent AX363
-Controller > Taking ownership of Agent AX67
-Controller > Taking ownership of Agent AX364
-Controller > Taking ownership of Agent AX68
-Controller > Taking ownership of Agent AX365
-Controller > Taking ownership of Agent AX360
-Controller > Taking ownership of Agent AX481
-Controller > Taking ownership of Agent AX361
-Controller > Taking ownership of Agent AX482
-Controller > Taking ownership of Agent AX117
-Controller > Taking ownership of Agent AX238
-Controller > Taking ownership of Agent AX359
-Controller > Taking ownership of Agent AX118
-Controller > Taking ownership of Agent AX119
-Controller > Taking ownership of Agent AX157
-Controller > Taking ownership of Agent AX278
-Controller > Taking ownership of Agent AX158
-Controller > Taking ownership of Agent AX153
-Controller > Taking ownership of Agent AX274
-Controller > Taking ownership of Agent AX154
-Controller > Taking ownership of Agent AX275
-Controller > Taking ownership of Agent AX155
-Controller > Taking ownership of Agent AX276
-Controller > Taking ownership of Agent AX397
-Controller > Taking ownership of Agent AX79
-Controller > Taking ownership of Agent AX156
-Controller > Taking ownership of Agent AX277
-Controller > Taking ownership of Agent AX398
-Controller > Taking ownership of Agent AX270
-Controller > Taking ownership of Agent AX271
-Controller > Taking ownership of Agent AX151
-Controller > Taking ownership of Agent AX272
-Controller > Taking ownership of Agent AX152
-Controller > Taking ownership of Agent AX273
-Controller > Taking ownership of Agent AX70
-Controller > Taking ownership of Agent AX146
-Controller > Taking ownership of Agent AX267
-Controller > Taking ownership of Agent AX388
-Controller > Taking ownership of Agent AX268
-Controller > Taking ownership of Agent AX269
-Controller > Taking ownership of Agent AX263
-Controller > Taking ownership of Agent AX143
-Controller > Taking ownership of Agent AX264
-Controller > Taking ownership of Agent AX144
-Controller > Taking ownership of Agent AX265
-Controller > Taking ownership of Agent AX145
-Controller > Taking ownership of Agent AX266
-Controller > Taking ownership of Agent AX387
-Controller > Taking ownership of Agent AX85
-Controller > Taking ownership of Agent AX261
-Controller > Taking ownership of Agent AX86
-Controller > Taking ownership of Agent AX262
-Controller > Taking ownership of Agent AX83
-Controller > Taking ownership of Agent AX84
-Controller > Taking ownership of Agent AX81
-Controller > Taking ownership of Agent AX82
-Controller > Taking ownership of Agent AX80
-Controller > Taking ownership of Agent AX212
-Controller > Taking ownership of Agent AX575
-Controller > Taking ownership of Agent AX213
-Controller > Taking ownership of Agent AX576
-Controller > Taking ownership of Agent AX214
-Controller > Taking ownership of Agent AX577
-Controller > Taking ownership of Agent AX215
-Controller > Taking ownership of Agent AX578
-Controller > Taking ownership of Agent AX450
-Controller > Taking ownership of Agent AX330
-Controller > Taking ownership of Agent AX210
-Controller > Taking ownership of Agent AX211
-Controller > Taking ownership of Agent AX209
-Controller > Taking ownership of Agent AX205
-Controller > Taking ownership of Agent AX326
-Controller > Taking ownership of Agent AX206
-Controller > Taking ownership of Agent AX327
-Controller > Taking ownership of Agent AX328
-Controller > Taking ownership of Agent AX449
-Controller > Taking ownership of Agent AX329
-Controller > Taking ownership of Agent AX322
-Controller > Taking ownership of Agent AX564
-Controller > Taking ownership of Agent AX323
-Controller > Taking ownership of Agent AX565
-Controller > Taking ownership of Agent AX324
-Controller > Taking ownership of Agent AX566
-Controller > Taking ownership of Agent AX325
-Controller > Taking ownership of Agent AX560
-Controller > Taking ownership of Agent AX440
-Controller > Taking ownership of Agent AX561
-Controller > Taking ownership of Agent AX562
-Controller > Taking ownership of Agent AX321
-Controller > Taking ownership of Agent AX563
-Controller > Taking ownership of Agent AX436
-Controller > Taking ownership of Agent AX557
-Controller > Taking ownership of Agent AX799
-Controller > Taking ownership of Agent AX558
-Controller > Taking ownership of Agent AX559
-Controller > Taking ownership of Agent AX439
-Controller > Taking ownership of Agent AX234
-Controller > Taking ownership of Agent AX355
-Controller > Taking ownership of Agent AX476
-Controller > Taking ownership of Agent AX597
-Controller > Taking ownership of Agent AX235
-Controller > Taking ownership of Agent AX356
-Controller > Taking ownership of Agent AX477
-Controller > Taking ownership of Agent AX598
-Controller > Taking ownership of Agent AX236
-Controller > Taking ownership of Agent AX357
-Controller > Taking ownership of Agent AX478
-Controller > Taking ownership of Agent AX599
-Controller > Taking ownership of Agent AX237
-Controller > Taking ownership of Agent AX358
-Controller > Taking ownership of Agent AX351
-Controller > Taking ownership of Agent AX472
-Controller > Taking ownership of Agent AX593
-Controller > Taking ownership of Agent AX352
-Controller > Taking ownership of Agent AX594
-Controller > Taking ownership of Agent AX595
-Controller > Taking ownership of Agent AX233
-Controller > Taking ownership of Agent AX475
-Controller > Taking ownership of Agent AX596
-Controller > Taking ownership of Agent AX590
-Controller > Taking ownership of Agent AX591
-Controller > Taking ownership of Agent AX350
-Controller > Taking ownership of Agent AX471
-Controller > Taking ownership of Agent AX592
-Controller > Taking ownership of Agent AX106
-Controller > Taking ownership of Agent AX348
-Controller > Taking ownership of Agent AX349
-Controller > Taking ownership of Agent AX344
-Controller > Taking ownership of Agent AX586
-Controller > Taking ownership of Agent AX103
-Controller > Taking ownership of Agent AX345
-Controller > Taking ownership of Agent AX587
-Controller > Taking ownership of Agent AX104
-Controller > Taking ownership of Agent AX346
-Controller > Taking ownership of Agent AX588
-Controller > Taking ownership of Agent AX105
-Controller > Taking ownership of Agent AX347
-Controller > Taking ownership of Agent AX589
-Controller > Taking ownership of Agent AX340
-Controller > Taking ownership of Agent AX582
-Controller > Taking ownership of Agent AX341
-Controller > Taking ownership of Agent AX583
-Controller > Taking ownership of Agent AX342
-Controller > Taking ownership of Agent AX584
-Controller > Taking ownership of Agent AX343
-Controller > Taking ownership of Agent AX585
-Controller > Taking ownership of Agent AX580
-Controller > Taking ownership of Agent AX581
-Controller > Taking ownership of Agent AX216
-Controller > Taking ownership of Agent AX579
-Controller > Taking ownership of Agent AX217
-Controller > Taking ownership of Agent AX218
-Controller > Taking ownership of Agent AX339
-Controller > Taking ownership of Agent AX652
-Controller > Taking ownership of Agent AX773
-Controller > Taking ownership of Agent AX894
-Controller > Taking ownership of Agent AX653
-Controller > Taking ownership of Agent AX774
-Controller > Taking ownership of Agent AX895
-Controller > Taking ownership of Agent AX533
-Controller > Taking ownership of Agent AX654
-Controller > Taking ownership of Agent AX896
-Controller > Taking ownership of Agent AX534
-Controller > Taking ownership of Agent AX890
-Controller > Taking ownership of Agent AX770
-Controller > Taking ownership of Agent AX891
-Controller > Taking ownership of Agent AX771
-Controller > Taking ownership of Agent AX892
-Controller > Taking ownership of Agent AX651
-Controller > Taking ownership of Agent AX772
-Controller > Taking ownership of Agent AX893
-Controller > Taking ownership of Agent AX528
-Controller > Taking ownership of Agent AX524
-Controller > Taking ownership of Agent AX645
-Controller > Taking ownership of Agent AX766
-Controller > Taking ownership of Agent AX525
-Controller > Taking ownership of Agent AX646
-Controller > Taking ownership of Agent AX767
-Controller > Taking ownership of Agent AX405
-Controller > Taking ownership of Agent AX526
-Controller > Taking ownership of Agent AX768
-Controller > Taking ownership of Agent AX889
-Controller > Taking ownership of Agent AX406
-Controller > Taking ownership of Agent AX527
-Controller > Taking ownership of Agent AX769
-Controller > Taking ownership of Agent AX520
-Controller > Taking ownership of Agent AX641
-Controller > Taking ownership of Agent AX642
-Controller > Taking ownership of Agent AX763
-Controller > Taking ownership of Agent AX401
-Controller > Taking ownership of Agent AX643
-Controller > Taking ownership of Agent AX764
-Controller > Taking ownership of Agent AX402
-Controller > Taking ownership of Agent AX523
-Controller > Taking ownership of Agent AX644
-Controller > Taking ownership of Agent AX765
-Controller > Taking ownership of Agent AX880
-Controller > Taking ownership of Agent AX760
-Controller > Taking ownership of Agent AX881
-Controller > Taking ownership of Agent AX640
-Controller > Taking ownership of Agent AX882
-Controller > Taking ownership of Agent AX517
-Controller > Taking ownership of Agent AX638
-Controller > Taking ownership of Agent AX759
-Controller > Taking ownership of Agent AX518
-Controller > Taking ownership of Agent AX639
-Controller > Taking ownership of Agent AX519
-Controller > Taking ownership of Agent AX634
-Controller > Taking ownership of Agent AX876
-Controller > Taking ownership of Agent AX635
-Controller > Taking ownership of Agent AX877
-Controller > Taking ownership of Agent AX636
-Controller > Taking ownership of Agent AX757
-Controller > Taking ownership of Agent AX878
-Controller > Taking ownership of Agent AX637
-Controller > Taking ownership of Agent AX758
-Controller > Taking ownership of Agent AX879
-Controller > Taking ownership of Agent AX311
-Controller > Taking ownership of Agent AX795
-Controller > Taking ownership of Agent AX312
-Controller > Taking ownership of Agent AX796
-Controller > Taking ownership of Agent AX313
-Controller > Taking ownership of Agent AX555
-Controller > Taking ownership of Agent AX797
-Controller > Taking ownership of Agent AX314
-Controller > Taking ownership of Agent AX435
-Controller > Taking ownership of Agent AX556
-Controller > Taking ownership of Agent AX798
-Controller > Taking ownership of Agent AX791
-Controller > Taking ownership of Agent AX671
-Controller > Taking ownership of Agent AX792
-Controller > Taking ownership of Agent AX672
-Controller > Taking ownership of Agent AX793
-Controller > Taking ownership of Agent AX310
-Controller > Taking ownership of Agent AX794
-Controller > Taking ownership of Agent AX790
-Controller > Taking ownership of Agent AX308
-Controller > Taking ownership of Agent AX309
-Controller > Taking ownership of Agent AX304
-Controller > Taking ownership of Agent AX667
-Controller > Taking ownership of Agent AX788
-Controller > Taking ownership of Agent AX305
-Controller > Taking ownership of Agent AX668
-Controller > Taking ownership of Agent AX789
-Controller > Taking ownership of Agent AX306
-Controller > Taking ownership of Agent AX307
-Controller > Taking ownership of Agent AX300
-Controller > Taking ownership of Agent AX663
-Controller > Taking ownership of Agent AX784
-Controller > Taking ownership of Agent AX301
-Controller > Taking ownership of Agent AX664
-Controller > Taking ownership of Agent AX785
-Controller > Taking ownership of Agent AX302
-Controller > Taking ownership of Agent AX665
-Controller > Taking ownership of Agent AX786
-Controller > Taking ownership of Agent AX303
-Controller > Taking ownership of Agent AX666
-Controller > Taking ownership of Agent AX787
-Controller > Taking ownership of Agent AX661
-Controller > Taking ownership of Agent AX662
-Controller > Taking ownership of Agent AX783
-Controller > Taking ownership of Agent AX535
-Controller > Taking ownership of Agent AX536
-Controller > Taking ownership of Agent AX605
-Controller > Taking ownership of Agent AX726
-Controller > Taking ownership of Agent AX606
-Controller > Taking ownership of Agent AX727
-Controller > Taking ownership of Agent AX607
-Controller > Taking ownership of Agent AX728
-Controller > Taking ownership of Agent AX608
-Controller > Taking ownership of Agent AX601
-Controller > Taking ownership of Agent AX722
-Controller > Taking ownership of Agent AX602
-Controller > Taking ownership of Agent AX723
-Controller > Taking ownership of Agent AX603
-Controller > Taking ownership of Agent AX724
-Controller > Taking ownership of Agent AX604
-Controller > Taking ownership of Agent AX725
-Controller > Taking ownership of Agent AX720
-Controller > Taking ownership of Agent AX600
-Controller > Taking ownership of Agent AX721
-Controller > Taking ownership of Agent AX719
-Controller > Taking ownership of Agent AX715
-Controller > Taking ownership of Agent AX836
-Controller > Taking ownership of Agent AX716
-Controller > Taking ownership of Agent AX837
-Controller > Taking ownership of Agent AX717
-Controller > Taking ownership of Agent AX838
-Controller > Taking ownership of Agent AX718
-Controller > Taking ownership of Agent AX713
-Controller > Taking ownership of Agent AX714
-Controller > Taking ownership of Agent AX835
-Controller > Taking ownership of Agent AX630
-Controller > Taking ownership of Agent AX631
-Controller > Taking ownership of Agent AX632
-Controller > Taking ownership of Agent AX633
-Controller > Taking ownership of Agent AX875
-Controller > Taking ownership of Agent AX748
-Controller > Taking ownership of Agent AX629
-Controller > Taking ownership of Agent AX623
-Controller > Taking ownership of Agent AX744
-Controller > Taking ownership of Agent AX624
-Controller > Taking ownership of Agent AX745
-Controller > Taking ownership of Agent AX625
-Controller > Taking ownership of Agent AX746
-Controller > Taking ownership of Agent AX867
-Controller > Taking ownership of Agent AX626
-Controller > Taking ownership of Agent AX747
-Controller > Taking ownership of Agent AX868
-Controller > Taking ownership of Agent AX620
-Controller > Taking ownership of Agent AX741
-Controller > Taking ownership of Agent AX621
-Controller > Taking ownership of Agent AX742
-Controller > Taking ownership of Agent AX622
-Controller > Taking ownership of Agent AX743
-Controller > Taking ownership of Agent AX616
-Controller > Taking ownership of Agent AX617
-Controller > Taking ownership of Agent AX618
-Controller > Taking ownership of Agent AX619
-Controller > Taking ownership of Agent AX613
-Controller > Taking ownership of Agent AX614
-Controller > Taking ownership of Agent AX615
-Controller > Taking ownership of Agent AX800
-Controller > Taking ownership of Agent AX801
-Controller > Taking ownership of Agent AX802
-Controller > Taking ownership of Agent AX911
-Controller > Taking ownership of Agent AX912
-Controller > Taking ownership of Agent AX830
-Controller > Taking ownership of Agent AX829
-Controller > Taking ownership of Agent AX825
-Controller > Taking ownership of Agent AX826
-Controller > Taking ownership of Agent AX827
-Controller > Taking ownership of Agent AX828
-Controller > Taking ownership of Agent AX818
-Controller > Taking ownership of Agent AX817
-Controller > Taking ownership of Agent AX903
-Controller > Taking ownership of Agent AX904
-Controller > var `X491' = 512
+Taking ownership of Agent AX16
+Taking ownership of Agent AX14
+Taking ownership of Agent AX296
+Taking ownership of Agent AX15
+Taking ownership of Agent AX13
+Taking ownership of Agent AX299
+Taking ownership of Agent AX292
+Taking ownership of Agent AX295
+Taking ownership of Agent AX290
+Taking ownership of Agent AX291
+Taking ownership of Agent AX289
+Taking ownership of Agent AX27
+Taking ownership of Agent AX28
+Taking ownership of Agent AX285
+Taking ownership of Agent AX286
+Taking ownership of Agent AX23
+Taking ownership of Agent AX287
+Taking ownership of Agent AX24
+Taking ownership of Agent AX288
+Taking ownership of Agent AX281
+Taking ownership of Agent AX282
+Taking ownership of Agent AX283
+Taking ownership of Agent AX284
+Taking ownership of Agent AX193
+Taking ownership of Agent AX194
+Taking ownership of Agent AX191
+Taking ownership of Agent AX192
+Taking ownership of Agent AX49
+Taking ownership of Agent AX182
+Taking ownership of Agent AX183
+Taking ownership of Agent AX184
+Taking ownership of Agent AX180
+Taking ownership of Agent AX181
+Taking ownership of Agent AX377
+Taking ownership of Agent AX378
+Taking ownership of Agent AX494
+Taking ownership of Agent AX495
+Taking ownership of Agent AX375
+Taking ownership of Agent AX496
+Taking ownership of Agent AX376
+Taking ownership of Agent AX54
+Taking ownership of Agent AX370
+Taking ownership of Agent AX491
+Taking ownership of Agent AX52
+Taking ownership of Agent AX371
+Taking ownership of Agent AX492
+Taking ownership of Agent AX53
+Taking ownership of Agent AX130
+Taking ownership of Agent AX372
+Taking ownership of Agent AX493
+Taking ownership of Agent AX50
+Taking ownership of Agent AX51
+Taking ownership of Agent AX128
+Taking ownership of Agent AX129
+Taking ownership of Agent AX366
+Taking ownership of Agent AX367
+Taking ownership of Agent AX368
+Taking ownership of Agent AX127
+Taking ownership of Agent AX369
+Taking ownership of Agent AX69
+Taking ownership of Agent AX120
+Taking ownership of Agent AX362
+Taking ownership of Agent AX363
+Taking ownership of Agent AX67
+Taking ownership of Agent AX364
+Taking ownership of Agent AX68
+Taking ownership of Agent AX365
+Taking ownership of Agent AX360
+Taking ownership of Agent AX481
+Taking ownership of Agent AX361
+Taking ownership of Agent AX482
+Taking ownership of Agent AX117
+Taking ownership of Agent AX238
+Taking ownership of Agent AX359
+Taking ownership of Agent AX118
+Taking ownership of Agent AX119
+Taking ownership of Agent AX157
+Taking ownership of Agent AX278
+Taking ownership of Agent AX158
+Taking ownership of Agent AX153
+Taking ownership of Agent AX274
+Taking ownership of Agent AX154
+Taking ownership of Agent AX275
+Taking ownership of Agent AX155
+Taking ownership of Agent AX276
+Taking ownership of Agent AX397
+Taking ownership of Agent AX79
+Taking ownership of Agent AX156
+Taking ownership of Agent AX277
+Taking ownership of Agent AX398
+Taking ownership of Agent AX270
+Taking ownership of Agent AX271
+Taking ownership of Agent AX151
+Taking ownership of Agent AX272
+Taking ownership of Agent AX152
+Taking ownership of Agent AX273
+Taking ownership of Agent AX70
+Taking ownership of Agent AX146
+Taking ownership of Agent AX267
+Taking ownership of Agent AX388
+Taking ownership of Agent AX268
+Taking ownership of Agent AX269
+Taking ownership of Agent AX263
+Taking ownership of Agent AX143
+Taking ownership of Agent AX264
+Taking ownership of Agent AX144
+Taking ownership of Agent AX265
+Taking ownership of Agent AX145
+Taking ownership of Agent AX266
+Taking ownership of Agent AX387
+Taking ownership of Agent AX85
+Taking ownership of Agent AX261
+Taking ownership of Agent AX86
+Taking ownership of Agent AX262
+Taking ownership of Agent AX83
+Taking ownership of Agent AX84
+Taking ownership of Agent AX81
+Taking ownership of Agent AX82
+Taking ownership of Agent AX80
+Taking ownership of Agent AX212
+Taking ownership of Agent AX575
+Taking ownership of Agent AX213
+Taking ownership of Agent AX576
+Taking ownership of Agent AX214
+Taking ownership of Agent AX577
+Taking ownership of Agent AX215
+Taking ownership of Agent AX578
+Taking ownership of Agent AX450
+Taking ownership of Agent AX330
+Taking ownership of Agent AX210
+Taking ownership of Agent AX211
+Taking ownership of Agent AX209
+Taking ownership of Agent AX205
+Taking ownership of Agent AX326
+Taking ownership of Agent AX206
+Taking ownership of Agent AX327
+Taking ownership of Agent AX328
+Taking ownership of Agent AX449
+Taking ownership of Agent AX329
+Taking ownership of Agent AX322
+Taking ownership of Agent AX564
+Taking ownership of Agent AX323
+Taking ownership of Agent AX565
+Taking ownership of Agent AX324
+Taking ownership of Agent AX566
+Taking ownership of Agent AX325
+Taking ownership of Agent AX560
+Taking ownership of Agent AX440
+Taking ownership of Agent AX561
+Taking ownership of Agent AX562
+Taking ownership of Agent AX321
+Taking ownership of Agent AX563
+Taking ownership of Agent AX436
+Taking ownership of Agent AX557
+Taking ownership of Agent AX799
+Taking ownership of Agent AX558
+Taking ownership of Agent AX559
+Taking ownership of Agent AX439
+Taking ownership of Agent AX234
+Taking ownership of Agent AX355
+Taking ownership of Agent AX476
+Taking ownership of Agent AX597
+Taking ownership of Agent AX235
+Taking ownership of Agent AX356
+Taking ownership of Agent AX477
+Taking ownership of Agent AX598
+Taking ownership of Agent AX236
+Taking ownership of Agent AX357
+Taking ownership of Agent AX478
+Taking ownership of Agent AX599
+Taking ownership of Agent AX237
+Taking ownership of Agent AX358
+Taking ownership of Agent AX351
+Taking ownership of Agent AX472
+Taking ownership of Agent AX593
+Taking ownership of Agent AX352
+Taking ownership of Agent AX594
+Taking ownership of Agent AX595
+Taking ownership of Agent AX233
+Taking ownership of Agent AX475
+Taking ownership of Agent AX596
+Taking ownership of Agent AX590
+Taking ownership of Agent AX591
+Taking ownership of Agent AX350
+Taking ownership of Agent AX471
+Taking ownership of Agent AX592
+Taking ownership of Agent AX106
+Taking ownership of Agent AX348
+Taking ownership of Agent AX349
+Taking ownership of Agent AX344
+Taking ownership of Agent AX586
+Taking ownership of Agent AX103
+Taking ownership of Agent AX345
+Taking ownership of Agent AX587
+Taking ownership of Agent AX104
+Taking ownership of Agent AX346
+Taking ownership of Agent AX588
+Taking ownership of Agent AX105
+Taking ownership of Agent AX347
+Taking ownership of Agent AX589
+Taking ownership of Agent AX340
+Taking ownership of Agent AX582
+Taking ownership of Agent AX341
+Taking ownership of Agent AX583
+Taking ownership of Agent AX342
+Taking ownership of Agent AX584
+Taking ownership of Agent AX343
+Taking ownership of Agent AX585
+Taking ownership of Agent AX580
+Taking ownership of Agent AX581
+Taking ownership of Agent AX216
+Taking ownership of Agent AX579
+Taking ownership of Agent AX217
+Taking ownership of Agent AX218
+Taking ownership of Agent AX339
+Taking ownership of Agent AX652
+Taking ownership of Agent AX773
+Taking ownership of Agent AX894
+Taking ownership of Agent AX653
+Taking ownership of Agent AX774
+Taking ownership of Agent AX895
+Taking ownership of Agent AX533
+Taking ownership of Agent AX654
+Taking ownership of Agent AX896
+Taking ownership of Agent AX534
+Taking ownership of Agent AX890
+Taking ownership of Agent AX770
+Taking ownership of Agent AX891
+Taking ownership of Agent AX771
+Taking ownership of Agent AX892
+Taking ownership of Agent AX651
+Taking ownership of Agent AX772
+Taking ownership of Agent AX893
+Taking ownership of Agent AX528
+Taking ownership of Agent AX524
+Taking ownership of Agent AX645
+Taking ownership of Agent AX766
+Taking ownership of Agent AX525
+Taking ownership of Agent AX646
+Taking ownership of Agent AX767
+Taking ownership of Agent AX405
+Taking ownership of Agent AX526
+Taking ownership of Agent AX768
+Taking ownership of Agent AX889
+Taking ownership of Agent AX406
+Taking ownership of Agent AX527
+Taking ownership of Agent AX769
+Taking ownership of Agent AX520
+Taking ownership of Agent AX641
+Taking ownership of Agent AX642
+Taking ownership of Agent AX763
+Taking ownership of Agent AX401
+Taking ownership of Agent AX643
+Taking ownership of Agent AX764
+Taking ownership of Agent AX402
+Taking ownership of Agent AX523
+Taking ownership of Agent AX644
+Taking ownership of Agent AX765
+Taking ownership of Agent AX880
+Taking ownership of Agent AX760
+Taking ownership of Agent AX881
+Taking ownership of Agent AX640
+Taking ownership of Agent AX882
+Taking ownership of Agent AX517
+Taking ownership of Agent AX638
+Taking ownership of Agent AX759
+Taking ownership of Agent AX518
+Taking ownership of Agent AX639
+Taking ownership of Agent AX519
+Taking ownership of Agent AX634
+Taking ownership of Agent AX876
+Taking ownership of Agent AX635
+Taking ownership of Agent AX877
+Taking ownership of Agent AX636
+Taking ownership of Agent AX757
+Taking ownership of Agent AX878
+Taking ownership of Agent AX637
+Taking ownership of Agent AX758
+Taking ownership of Agent AX879
+Taking ownership of Agent AX311
+Taking ownership of Agent AX795
+Taking ownership of Agent AX312
+Taking ownership of Agent AX796
+Taking ownership of Agent AX313
+Taking ownership of Agent AX555
+Taking ownership of Agent AX797
+Taking ownership of Agent AX314
+Taking ownership of Agent AX435
+Taking ownership of Agent AX556
+Taking ownership of Agent AX798
+Taking ownership of Agent AX791
+Taking ownership of Agent AX671
+Taking ownership of Agent AX792
+Taking ownership of Agent AX672
+Taking ownership of Agent AX793
+Taking ownership of Agent AX310
+Taking ownership of Agent AX794
+Taking ownership of Agent AX790
+Taking ownership of Agent AX308
+Taking ownership of Agent AX309
+Taking ownership of Agent AX304
+Taking ownership of Agent AX667
+Taking ownership of Agent AX788
+Taking ownership of Agent AX305
+Taking ownership of Agent AX668
+Taking ownership of Agent AX789
+Taking ownership of Agent AX306
+Taking ownership of Agent AX307
+Taking ownership of Agent AX300
+Taking ownership of Agent AX663
+Taking ownership of Agent AX784
+Taking ownership of Agent AX301
+Taking ownership of Agent AX664
+Taking ownership of Agent AX785
+Taking ownership of Agent AX302
+Taking ownership of Agent AX665
+Taking ownership of Agent AX786
+Taking ownership of Agent AX303
+Taking ownership of Agent AX666
+Taking ownership of Agent AX787
+Taking ownership of Agent AX661
+Taking ownership of Agent AX662
+Taking ownership of Agent AX783
+Taking ownership of Agent AX535
+Taking ownership of Agent AX536
+Taking ownership of Agent AX605
+Taking ownership of Agent AX726
+Taking ownership of Agent AX606
+Taking ownership of Agent AX727
+Taking ownership of Agent AX607
+Taking ownership of Agent AX728
+Taking ownership of Agent AX608
+Taking ownership of Agent AX601
+Taking ownership of Agent AX722
+Taking ownership of Agent AX602
+Taking ownership of Agent AX723
+Taking ownership of Agent AX603
+Taking ownership of Agent AX724
+Taking ownership of Agent AX604
+Taking ownership of Agent AX725
+Taking ownership of Agent AX720
+Taking ownership of Agent AX600
+Taking ownership of Agent AX721
+Taking ownership of Agent AX719
+Taking ownership of Agent AX715
+Taking ownership of Agent AX836
+Taking ownership of Agent AX716
+Taking ownership of Agent AX837
+Taking ownership of Agent AX717
+Taking ownership of Agent AX838
+Taking ownership of Agent AX718
+Taking ownership of Agent AX713
+Taking ownership of Agent AX714
+Taking ownership of Agent AX835
+Taking ownership of Agent AX630
+Taking ownership of Agent AX631
+Taking ownership of Agent AX632
+Taking ownership of Agent AX633
+Taking ownership of Agent AX875
+Taking ownership of Agent AX748
+Taking ownership of Agent AX629
+Taking ownership of Agent AX623
+Taking ownership of Agent AX744
+Taking ownership of Agent AX624
+Taking ownership of Agent AX745
+Taking ownership of Agent AX625
+Taking ownership of Agent AX746
+Taking ownership of Agent AX867
+Taking ownership of Agent AX626
+Taking ownership of Agent AX747
+Taking ownership of Agent AX868
+Taking ownership of Agent AX620
+Taking ownership of Agent AX741
+Taking ownership of Agent AX621
+Taking ownership of Agent AX742
+Taking ownership of Agent AX622
+Taking ownership of Agent AX743
+Taking ownership of Agent AX616
+Taking ownership of Agent AX617
+Taking ownership of Agent AX618
+Taking ownership of Agent AX619
+Taking ownership of Agent AX613
+Taking ownership of Agent AX614
+Taking ownership of Agent AX615
+Taking ownership of Agent AX800
+Taking ownership of Agent AX801
+Taking ownership of Agent AX802
+Taking ownership of Agent AX911
+Taking ownership of Agent AX912
+Taking ownership of Agent AX830
+Taking ownership of Agent AX829
+Taking ownership of Agent AX825
+Taking ownership of Agent AX826
+Taking ownership of Agent AX827
+Taking ownership of Agent AX828
+Taking ownership of Agent AX818
+Taking ownership of Agent AX817
+Taking ownership of Agent AX903
+Taking ownership of Agent AX904
+var `X491' = 512
 var `X494' = 58
 var `X492' = 268
 var `X493' = 296
@@ -5288,6 +5288,5 @@ Amount of information received (by agent, in bytes):
 Size of the largest message sent (by type, in bytes): 
 	- Overall maximum:	0
 Algorithm finished in 836535 ms
-Controller > Experiments finished
+Experiments finished
 All experiments are finished
-Controller > 
