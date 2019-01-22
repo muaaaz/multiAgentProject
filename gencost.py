@@ -10,6 +10,14 @@ def geCost(F1, F2, K):
     return max(K - abs(F1 - F2) + 1, 0)
 
 
+def eqConst01(F1, F2, K):
+    return min(1, abs(abs(F1 - F2) - K))
+
+
+def geCost01(F1, F2, K):
+    return max(min(1, K - abs(F1 - F2) + 1), 0)
+
+
 def genCost(dom, var, ctr, destination="cost"):
     for c in ctr:
         op = c["operation"]
