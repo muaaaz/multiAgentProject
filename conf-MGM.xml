@@ -1,0 +1,22 @@
+<experiment>  
+ 
+ <configuration>  
+   <resultFile fileName="result.log"/>  
+   <agentDescription fileName = "frodo2.16/agents/MGM/MGMagentJaCoP.xml"/>  
+ </configuration>  
+ 
+ <problemList nbProblem = "1">  
+    <file fileName = "xml/scen01.xml"/>
+    <file fileName = "xml/scen02.xml"/>
+    <file fileName = "xml/scen03.xml"/>
+    <file fileName = "xml/scen04.xml"/>
+    <file fileName = "xml/scen05.xml"/>
+    <file fileName = "xml/scen06.xml"/>
+    <file fileName = "xml/scen07.xml"/>
+    <file fileName = "xml/scen08.xml"/>
+    <file fileName = "xml/scen09.xml"/>
+    <file fileName = "xml/scen10.xml"/>
+    <file fileName = "xml/scen11.xml"/>
+ </problemList>  
+ 
+</experiment> 
