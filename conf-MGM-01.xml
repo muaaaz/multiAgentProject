@@ -5,8 +5,9 @@
    <agentDescription fileName = "frodo2.16/agents/MGM/MGMagentJaCoP.xml"/>  
  </configuration>  
  
- <problemList nbProblem = "1">  
+ <problemList nbProblem = "2">  
     <file fileName = "xml-01/scen01.xml"/>
+    <file fileName = "xml-01/scen08.xml"/>
  </problemList>  
  
 </experiment> 
