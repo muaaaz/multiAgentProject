@@ -1,0 +1,12 @@
+<experiment>  
+ 
+ <configuration>  
+   <resultFile fileName="result.log"/>  
+   <agentDescription fileName = "frodo2.16/agents/DPOP/DPOPagentJaCoP.xml"/>  
+ </configuration>  
+ 
+ <problemList nbProblem = "1">  
+    <file fileName = "xml/scen01.xml"/>
+ </problemList>  
+ 
+</experiment> 
