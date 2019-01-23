@@ -6,7 +6,7 @@
  </configuration>  
  
  <problemList nbProblem = "1">  
-    <file fileName = "xml01/scen01.xml"/>
+    <file fileName = "xml-01/scen01.xml"/>
  </problemList>  
  
 </experiment> 
