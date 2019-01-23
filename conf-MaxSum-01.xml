@@ -2,7 +2,7 @@
  
  <configuration>  
    <resultFile fileName="result.log"/>  
-   <agentDescription fileName = "frodo2.16/agents/DPOP/DPOPagentJaCoP.xml"/>  
+   <agentDescription fileName = "frodo2.16/agents/MaxSum/MaxSumAgentJaCoP.xml"/>  
  </configuration>  
  
  <problemList nbProblem = "1">  
